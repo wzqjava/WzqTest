@@ -1,0 +1,55 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+     >
+	<!-- 帧布局 -->
+   <FrameLayout 
+       android:id="@+id/frame"
+       android:layout_weight="9"
+       android:layout_height="0dp"
+       android:layout_width="match_parent"
+       />
+   <RadioGroup 
+       android:id="@+id/group"
+       android:layout_weight="1"
+       android:layout_width="match_parent"
+       android:layout_height="0dp" 
+       android:orientation="horizontal"
+       >
+       <RadioButton 
+           android:id="@+id/button01"
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:gravity="center"
+           android:padding="10dp"
+           android:button="@null"
+           android:text="消息"
+           android:layout_weight="1"
+           />
+       <RadioButton 
+           android:id="@+id/button02"
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:gravity="center"
+           android:padding="10dp"
+           android:button="@null"
+           android:text="通讯录"
+           android:layout_weight="1"
+           />
+       <RadioButton 
+           android:id="@+id/button03"
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:gravity="center"
+           android:padding="10dp"
+           android:button="@null"
+           android:text="朋友圈"
+           android:layout_weight="1"
+           />
+       
+       
+   </RadioGroup>
+
+</LinearLayout>
