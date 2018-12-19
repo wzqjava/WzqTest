@@ -1,1 +1,2 @@
-include ':app', ':lib', ':handlerdemo', ':activity_fragment_LiveCycle'
+include ':app', ':lib', ':handlerdemo', ':activity_fragment_LiveCycle', ':permissionrequest', ':runtime_permissionrequest'
+include 'activity_saveFragment_saveTask'

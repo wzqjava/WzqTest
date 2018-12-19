@@ -1,9 +1,9 @@
 package com.example.fragment;
 
 import android.os.Bundle;
-import android.support.v4.app.FragmentActivity;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentTransaction;
+import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.widget.RadioGroup;
 
@@ -11,7 +11,7 @@ import android.widget.RadioGroup;
  * 动态注册fragment
  */
 
-public class MainActivity extends FragmentActivity {
+public class MainActivity extends AppCompatActivity {
 
     private RadioGroup group;
     private FragmentManager supportFragmentManager;

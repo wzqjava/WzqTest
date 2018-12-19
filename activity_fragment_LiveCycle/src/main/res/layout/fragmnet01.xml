@@ -4,13 +4,18 @@
     android:layout_height="match_parent"
     android:background="#f00f0f"
     android:orientation="vertical" >
-    
-    
-    <ListView 
+
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Button" />
+
+    <ListView
         android:id="@+id/listview"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        ></ListView>
+        android:layout_height="300dp"></ListView>
     
     
 

@@ -1,6 +1,7 @@
 package com.example.fragment;
 
 import android.content.Context;
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
@@ -36,7 +37,14 @@ public class AFragment extends Fragment{
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         Log.e("wzq-Fragment","---------------onCreateView");
-        return View.inflate(getActivity(),R.layout.fragmnet01,null);
+        View view = View.inflate(getActivity(), R.layout.fragmnet01, null);
+            view.findViewById(R.id.button).setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    getActivity().startActivity(new Intent(getActivity(),Main2Activity.class));
+                }
+            });
+        return view ;
 
 
     }

@@ -9,9 +9,12 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/activity_fragment_LiveCycle" />
+            <option value="$PROJECT_DIR$/activity_saveFragment_saveTask" />
             <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/handlerdemo" />
             <option value="$PROJECT_DIR$/lib" />
+            <option value="$PROJECT_DIR$/permissionrequest" />
+            <option value="$PROJECT_DIR$/runtime_permissionrequest" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />
