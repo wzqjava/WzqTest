@@ -1,0 +1,16 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:itheima="http://schemas.android.com/apk/res/com.itheima.autoattribute"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   >
+
+    <com.itheima.autoattribute.MyAutoAttributeView
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        itheima:my_bg="@drawable/ic_launcher"
+        itheima:my_name="heima50ForAfu"
+        itheima:my_age="18"
+        />
+
+</RelativeLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 定义一个属性名为MyAutoAttributeView的属性集合 -->
+    <declare-styleable name="MyAutoAttributeView">
+        <!-- 定义一个reference类型名字叫my_bg属性 -->
+        <attr name="my_bg" format="reference" />
+         <!-- 定义一个string类型名字叫my_name属性 -->
+        <attr name="my_name" format="string" />
+          <!-- 定义一个integer类型名字叫my_age属性 -->
+        <attr name="my_age" format="integer" />
+    </declare-styleable>
+</resources>

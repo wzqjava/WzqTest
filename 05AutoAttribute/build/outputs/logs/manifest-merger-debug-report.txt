@@ -1,0 +1,144 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/wzq/workspaces/AndroidStudioProjects/WzqTest/05AutoAttribute/src/main/AndroidManifest.xml:2:1-25:12
+INJECTED from /Users/wzq/workspaces/AndroidStudioProjects/WzqTest/05AutoAttribute/src/main/AndroidManifest.xml:2:1-25:12
+INJECTED from /Users/wzq/workspaces/AndroidStudioProjects/WzqTest/05AutoAttribute/src/main/AndroidManifest.xml:2:1-25:12
+INJECTED from /Users/wzq/workspaces/AndroidStudioProjects/WzqTest/05AutoAttribute/src/main/AndroidManifest.xml:2:1-25:12
+MERGED from [com.android.support:support-v4:28.0.0] /Users/wzq/.gradle/caches/transforms-1/files-1.1/support-v4-28.0.0.aar/daf89fab940b100fac74212c671757e9/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:28.0.0] /Users/wzq/.gradle/caches/transforms-1/files-1.1/support-media-compat-28.0.0.aar/7290732e58604c35e85556e84d1e1698/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/wzq/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/074eb7a55ba8a9b394256e0d12512a4e/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/wzq/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/59e6169622d9fd77ae9ca63573f041ae/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/wzq/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/e07b9dc437a9d6636a59a31ec2b653ab/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] /Users/wzq/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/181be6064f7de45a8571fbd106d54c8e/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] /Users/wzq/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/308506c5c9d1ac2a22a89f3f4b198230/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/wzq/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/3f397aa8fbcf00cdaced89b0bbf2a67b/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/wzq/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/1eea4ce3c6ff1bfaa17ba69c551fe90b/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/wzq/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/5124d885d5154d858712353929e456ca/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] /Users/wzq/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/5118f1564c1b56b5c8af20209cd0bf44/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/wzq/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/8d2b0980edacb5298ad2c71368cb258d/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/wzq/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/1d7bb9a6c99647397b9c9d9e85ef6241/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] /Users/wzq/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/a09a00c24950d88fdba6c8145204f3f3/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/wzq/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/d387d5636240bb96ccc2e93a41f9d49c/AndroidManifest.xml:17:1-25:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/wzq/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/ceb352e973bc1fd43e65ca1f89033105/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] /Users/wzq/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/671a46868f14ebbc914defca8379d234/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/wzq/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/be512a12f68bc05f19c87a619207d653/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] /Users/wzq/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/1c760010069f1802ec603afa57c04799/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] /Users/wzq/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/b9dd143a76177b3357e91ac68eea3aa4/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/wzq/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/e6e47f6fd4a331793941882abf012981/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/wzq/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/019ed0d163d78d50c988fa6dff1f16ab/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/wzq/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/172af15fdff8ad71a15c58632eee0687/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/wzq/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/e6ffc430abfaf84566a653f0219d822e/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] /Users/wzq/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/c62964993ae98f31a1d2a939521081d3/AndroidManifest.xml:17:1-22:12
+INJECTED from /Users/wzq/workspaces/AndroidStudioProjects/WzqTest/05AutoAttribute/src/main/AndroidManifest.xml:2:1-25:12
+INJECTED from /Users/wzq/workspaces/AndroidStudioProjects/WzqTest/05AutoAttribute/src/main/AndroidManifest.xml:2:1-25:12
+INJECTED from /Users/wzq/workspaces/AndroidStudioProjects/WzqTest/05AutoAttribute/src/main/AndroidManifest.xml:2:1-25:12
+	package
+		ADDED from /Users/wzq/workspaces/AndroidStudioProjects/WzqTest/05AutoAttribute/src/main/AndroidManifest.xml:3:5-40
+		INJECTED from /Users/wzq/workspaces/AndroidStudioProjects/WzqTest/05AutoAttribute/src/main/AndroidManifest.xml
+		INJECTED from /Users/wzq/workspaces/AndroidStudioProjects/WzqTest/05AutoAttribute/src/main/AndroidManifest.xml
+	android:versionName
+		ADDED from /Users/wzq/workspaces/AndroidStudioProjects/WzqTest/05AutoAttribute/src/main/AndroidManifest.xml:5:5-30
+		INJECTED from /Users/wzq/workspaces/AndroidStudioProjects/WzqTest/05AutoAttribute/src/main/AndroidManifest.xml
+		INJECTED from /Users/wzq/workspaces/AndroidStudioProjects/WzqTest/05AutoAttribute/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/wzq/workspaces/AndroidStudioProjects/WzqTest/05AutoAttribute/src/main/AndroidManifest.xml:2:11-69
+	android:versionCode
+		ADDED from /Users/wzq/workspaces/AndroidStudioProjects/WzqTest/05AutoAttribute/src/main/AndroidManifest.xml:4:5-28
+		INJECTED from /Users/wzq/workspaces/AndroidStudioProjects/WzqTest/05AutoAttribute/src/main/AndroidManifest.xml
+		INJECTED from /Users/wzq/workspaces/AndroidStudioProjects/WzqTest/05AutoAttribute/src/main/AndroidManifest.xml
+application
+ADDED from /Users/wzq/workspaces/AndroidStudioProjects/WzqTest/05AutoAttribute/src/main/AndroidManifest.xml:9:5-23:19
+MERGED from [com.android.support:support-compat:28.0.0] /Users/wzq/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/a09a00c24950d88fdba6c8145204f3f3/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] /Users/wzq/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/a09a00c24950d88fdba6c8145204f3f3/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/wzq/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/d387d5636240bb96ccc2e93a41f9d49c/AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/wzq/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/d387d5636240bb96ccc2e93a41f9d49c/AndroidManifest.xml:22:5-23:19
+	android:appComponentFactory
+		ADDED from [com.android.support:support-compat:28.0.0] /Users/wzq/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/a09a00c24950d88fdba6c8145204f3f3/AndroidManifest.xml:22:18-91
+	android:label
+		ADDED from /Users/wzq/workspaces/AndroidStudioProjects/WzqTest/05AutoAttribute/src/main/AndroidManifest.xml:12:9-41
+	android:icon
+		ADDED from /Users/wzq/workspaces/AndroidStudioProjects/WzqTest/05AutoAttribute/src/main/AndroidManifest.xml:11:9-45
+	android:allowBackup
+		ADDED from /Users/wzq/workspaces/AndroidStudioProjects/WzqTest/05AutoAttribute/src/main/AndroidManifest.xml:10:9-35
+	android:theme
+		ADDED from /Users/wzq/workspaces/AndroidStudioProjects/WzqTest/05AutoAttribute/src/main/AndroidManifest.xml:13:9-40
+activity#com.itheima.autoattribute.MainActivity
+ADDED from /Users/wzq/workspaces/AndroidStudioProjects/WzqTest/05AutoAttribute/src/main/AndroidManifest.xml:14:9-22:20
+	android:label
+		ADDED from /Users/wzq/workspaces/AndroidStudioProjects/WzqTest/05AutoAttribute/src/main/AndroidManifest.xml:16:13-45
+	android:name
+		ADDED from /Users/wzq/workspaces/AndroidStudioProjects/WzqTest/05AutoAttribute/src/main/AndroidManifest.xml:15:13-66
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/wzq/workspaces/AndroidStudioProjects/WzqTest/05AutoAttribute/src/main/AndroidManifest.xml:17:13-21:29
+action#android.intent.action.MAIN
+ADDED from /Users/wzq/workspaces/AndroidStudioProjects/WzqTest/05AutoAttribute/src/main/AndroidManifest.xml:18:17-69
+	android:name
+		ADDED from /Users/wzq/workspaces/AndroidStudioProjects/WzqTest/05AutoAttribute/src/main/AndroidManifest.xml:18:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/wzq/workspaces/AndroidStudioProjects/WzqTest/05AutoAttribute/src/main/AndroidManifest.xml:20:17-77
+	android:name
+		ADDED from /Users/wzq/workspaces/AndroidStudioProjects/WzqTest/05AutoAttribute/src/main/AndroidManifest.xml:20:27-74
+uses-sdk
+INJECTED from /Users/wzq/workspaces/AndroidStudioProjects/WzqTest/05AutoAttribute/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/wzq/workspaces/AndroidStudioProjects/WzqTest/05AutoAttribute/src/main/AndroidManifest.xml
+INJECTED from /Users/wzq/workspaces/AndroidStudioProjects/WzqTest/05AutoAttribute/src/main/AndroidManifest.xml
+MERGED from [com.android.support:support-v4:28.0.0] /Users/wzq/.gradle/caches/transforms-1/files-1.1/support-v4-28.0.0.aar/daf89fab940b100fac74212c671757e9/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:28.0.0] /Users/wzq/.gradle/caches/transforms-1/files-1.1/support-v4-28.0.0.aar/daf89fab940b100fac74212c671757e9/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:28.0.0] /Users/wzq/.gradle/caches/transforms-1/files-1.1/support-media-compat-28.0.0.aar/7290732e58604c35e85556e84d1e1698/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:28.0.0] /Users/wzq/.gradle/caches/transforms-1/files-1.1/support-media-compat-28.0.0.aar/7290732e58604c35e85556e84d1e1698/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/wzq/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/074eb7a55ba8a9b394256e0d12512a4e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/wzq/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/074eb7a55ba8a9b394256e0d12512a4e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/wzq/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/59e6169622d9fd77ae9ca63573f041ae/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/wzq/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/59e6169622d9fd77ae9ca63573f041ae/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/wzq/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/e07b9dc437a9d6636a59a31ec2b653ab/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/wzq/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/e07b9dc437a9d6636a59a31ec2b653ab/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /Users/wzq/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/181be6064f7de45a8571fbd106d54c8e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /Users/wzq/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/181be6064f7de45a8571fbd106d54c8e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /Users/wzq/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/308506c5c9d1ac2a22a89f3f4b198230/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /Users/wzq/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/308506c5c9d1ac2a22a89f3f4b198230/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/wzq/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/3f397aa8fbcf00cdaced89b0bbf2a67b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/wzq/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/3f397aa8fbcf00cdaced89b0bbf2a67b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/wzq/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/1eea4ce3c6ff1bfaa17ba69c551fe90b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/wzq/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/1eea4ce3c6ff1bfaa17ba69c551fe90b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/wzq/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/5124d885d5154d858712353929e456ca/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/wzq/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/5124d885d5154d858712353929e456ca/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /Users/wzq/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/5118f1564c1b56b5c8af20209cd0bf44/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /Users/wzq/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/5118f1564c1b56b5c8af20209cd0bf44/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/wzq/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/8d2b0980edacb5298ad2c71368cb258d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/wzq/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/8d2b0980edacb5298ad2c71368cb258d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/wzq/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/1d7bb9a6c99647397b9c9d9e85ef6241/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/wzq/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/1d7bb9a6c99647397b9c9d9e85ef6241/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /Users/wzq/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/a09a00c24950d88fdba6c8145204f3f3/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /Users/wzq/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/a09a00c24950d88fdba6c8145204f3f3/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/wzq/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/d387d5636240bb96ccc2e93a41f9d49c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/wzq/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/d387d5636240bb96ccc2e93a41f9d49c/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/wzq/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/ceb352e973bc1fd43e65ca1f89033105/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/wzq/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/ceb352e973bc1fd43e65ca1f89033105/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /Users/wzq/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/671a46868f14ebbc914defca8379d234/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /Users/wzq/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/671a46868f14ebbc914defca8379d234/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/wzq/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/be512a12f68bc05f19c87a619207d653/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/wzq/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/be512a12f68bc05f19c87a619207d653/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /Users/wzq/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/1c760010069f1802ec603afa57c04799/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /Users/wzq/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/1c760010069f1802ec603afa57c04799/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /Users/wzq/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/b9dd143a76177b3357e91ac68eea3aa4/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /Users/wzq/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/b9dd143a76177b3357e91ac68eea3aa4/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/wzq/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/e6e47f6fd4a331793941882abf012981/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/wzq/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/e6e47f6fd4a331793941882abf012981/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/wzq/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/019ed0d163d78d50c988fa6dff1f16ab/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/wzq/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/019ed0d163d78d50c988fa6dff1f16ab/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/wzq/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/172af15fdff8ad71a15c58632eee0687/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/wzq/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/172af15fdff8ad71a15c58632eee0687/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/wzq/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/e6ffc430abfaf84566a653f0219d822e/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/wzq/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/e6ffc430abfaf84566a653f0219d822e/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /Users/wzq/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/c62964993ae98f31a1d2a939521081d3/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /Users/wzq/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/c62964993ae98f31a1d2a939521081d3/AndroidManifest.xml:20:5-44
+INJECTED from /Users/wzq/workspaces/AndroidStudioProjects/WzqTest/05AutoAttribute/src/main/AndroidManifest.xml
+INJECTED from /Users/wzq/workspaces/AndroidStudioProjects/WzqTest/05AutoAttribute/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/wzq/workspaces/AndroidStudioProjects/WzqTest/05AutoAttribute/src/main/AndroidManifest.xml
+		ADDED from /Users/wzq/workspaces/AndroidStudioProjects/WzqTest/05AutoAttribute/src/main/AndroidManifest.xml
+		INJECTED from /Users/wzq/workspaces/AndroidStudioProjects/WzqTest/05AutoAttribute/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/wzq/workspaces/AndroidStudioProjects/WzqTest/05AutoAttribute/src/main/AndroidManifest.xml
+		ADDED from /Users/wzq/workspaces/AndroidStudioProjects/WzqTest/05AutoAttribute/src/main/AndroidManifest.xml
+		INJECTED from /Users/wzq/workspaces/AndroidStudioProjects/WzqTest/05AutoAttribute/src/main/AndroidManifest.xml

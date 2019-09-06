@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <EditText
+        android:id="@+id/et_message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btn_publish"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="text_publish" />
+
+    <Button
+        android:id="@+id/btn_publish_and_finish"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="publish_and_finish" />
+
+    <Button
+        android:id="@+id/btn_publish_sticky"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="publish_sticky_event" />
+
+    <TextView
+        android:id="@+id/tv_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        tools:text="Message" />
+
+
+
+
+</LinearLayout>

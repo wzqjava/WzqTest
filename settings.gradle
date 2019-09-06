@@ -1,2 +1,5 @@
-include ':app', ':lib', ':handlerdemo', ':activity_fragment_LiveCycle', ':permissionrequest', ':runtime_permissionrequest'
+include ':EventBus_demo', ':java_lib', ':handlerdemo', ':activity_fragment_LiveCycle', ':permissionrequest', ':runtime_permissionrequest', ':CursorAdapter', ':BotomNavigation'
 include 'activity_saveFragment_saveTask'
+include ':_04MyToggleButton'
+include ':05AutoAttribute'
+include ':06MyScrollView'
