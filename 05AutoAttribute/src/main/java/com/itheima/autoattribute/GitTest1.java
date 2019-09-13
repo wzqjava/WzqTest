@@ -6,6 +6,6 @@ package com.itheima.autoattribute;
  * <p>文件描述：<p>
  */
 public class GitTest1 {
-  //  wzq add
+  //  wzq add ,wzq add2,
 
 }
