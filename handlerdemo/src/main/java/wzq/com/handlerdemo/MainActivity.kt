@@ -69,7 +69,7 @@ class MainActivity : Activity() {
             object : Thread() {
                 override fun run() {
                     super.run()
-                    Tasks.post2UI { button2!!.text = "我改变了自己" }
+                    Tasks.post2UI (Runnable { button2!!.text = "我改变了自己" } )
                 }
             }.start()
         }

@@ -8,16 +8,23 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/05AutoAttribute" />
+            <option value="$PROJECT_DIR$/06MyScrollView" />
+            <option value="$PROJECT_DIR$/BotomNavigation" />
+            <option value="$PROJECT_DIR$/CursorAdapter" />
+            <option value="$PROJECT_DIR$/EventBus_demo" />
+            <option value="$PROJECT_DIR$/_04MyToggleButton" />
             <option value="$PROJECT_DIR$/activity_fragment_LiveCycle" />
             <option value="$PROJECT_DIR$/activity_saveFragment_saveTask" />
-            <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/handlerdemo" />
-            <option value="$PROJECT_DIR$/lib" />
+            <option value="$PROJECT_DIR$/java_lib" />
             <option value="$PROJECT_DIR$/permissionrequest" />
             <option value="$PROJECT_DIR$/runtime_permissionrequest" />
+            <option value="$PROJECT_DIR$/testconstralayout" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />
+        <option name="testRunner" value="PLATFORM" />
       </GradleProjectSettings>
     </option>
   </component>
