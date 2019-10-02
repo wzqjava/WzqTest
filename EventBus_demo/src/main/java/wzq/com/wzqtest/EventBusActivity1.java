@@ -2,12 +2,13 @@ package wzq.com.wzqtest;
 
 import android.content.Intent;
 import android.os.Bundle;
-import androidx.annotation.Nullable;
-import androidx.appcompat.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import androidx.annotation.Nullable;
+import androidx.appcompat.app.AppCompatActivity;
 
 import org.greenrobot.eventbus.EventBus;
 import org.greenrobot.eventbus.Subscribe;
@@ -18,7 +19,6 @@ import butterknife.ButterKnife;
 
 /**
  * https://www.jianshu.com/p/e7d5c7bda783
- *
  */
 public class EventBusActivity1 extends AppCompatActivity {
 
