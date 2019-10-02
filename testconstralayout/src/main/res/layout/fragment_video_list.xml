@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff">
+
+
+    <com.africa.news.widget.pullrefreshlayout.PullRefreshLayout
+        android:id="@+id/pull_refresh"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:prl_footerShowGravity="follow"
+        app:prl_loadMoreEnable="true"
+        app:prl_targetId="@id/video_list">
+
+        <com.africa.news.widget.CustomRecyclerView
+            android:id="@+id/video_list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </com.africa.news.widget.pullrefreshlayout.PullRefreshLayout>
+
+    <com.africa.news.widget.LoadingView
+        android:id="@+id/loading"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ffffff" />
+
+    <include layout="@layout/bar_update_warning"/>
+
+</FrameLayout>

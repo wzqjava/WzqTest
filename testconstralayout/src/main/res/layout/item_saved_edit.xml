@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/saved_edit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:background="#ffffff"
+        android:drawablePadding="8dp"
+        style="@style/FontStyleNormal"
+        android:gravity="center"
+        android:lineSpacingExtra="0sp"
+        android:minHeight="35dp"
+        android:paddingEnd="17dp"
+        android:text="@string/edit"
+        android:textColor="#9ca0ab"
+        android:textSize="12sp"
+        android:textStyle="normal" />
+
+</RelativeLayout>

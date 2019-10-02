@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/content_container"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:layout_marginStart="12dp"
+    android:layout_marginEnd="12dp"
+    android:layout_marginBottom="12dp"
+    android:background="@drawable/shape_bg_white_4_radius"
+    android:paddingBottom="24dp">
+
+    <ImageView
+        android:id="@+id/close"
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="12dp"
+        android:background="?selectableItemBackground"
+        android:padding="6dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_close_black_24dp" />
+
+    <TextView
+        android:id="@+id/need_account"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/close"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="33dp"
+        android:layout_marginEnd="64dp"
+        style="@style/FontStyleNormal"
+        android:gravity="center_horizontal"
+        android:text="@string/you_need_a_more_account_to_communicate_with_others"
+        android:textColor="@android:color/black"
+        android:textSize="16sp"
+        android:textStyle="normal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/login_with_social_media"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        style="@style/FontStyleNormal"
+        android:gravity="center_horizontal"
+        android:text="@string/login_with_your_social_media"
+        android:textColor="@color/dark"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/need_account" />
+
+    <TextView
+        android:id="@+id/login_tip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        style="@style/FontStyleNormal"
+        android:gravity="center_horizontal"
+        android:text="@string/we_will_never_post_anything_without_your_permission"
+        android:textColor="@color/blue_grey"
+        android:textSize="12sp"
+        android:textStyle="normal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/login_with_social_media" />
+
+    <ImageView
+        android:id="@+id/img_login_facebook"
+        android:layout_width="44dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="16dp"
+        android:src="@drawable/share_facebook"
+        app:layout_constraintBottom_toTopOf="@id/or"
+        app:layout_constraintEnd_toStartOf="@+id/img_login_twitter"
+        app:layout_constraintHorizontal_chainStyle="spread_inside"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/login_tip"
+        app:layout_constraintVertical_bias="0.0"
+        app:layout_goneMarginBottom="24dp" />
+
+    <ImageView
+        android:id="@+id/img_login_twitter"
+        android:layout_width="44dp"
+        android:layout_height="44dp"
+        android:src="@drawable/share_twitter"
+        app:layout_constraintEnd_toStartOf="@+id/img_login_google"
+        app:layout_constraintStart_toEndOf="@+id/img_login_facebook"
+        app:layout_constraintTop_toTopOf="@+id/img_login_facebook" />
+
+    <ImageView
+        android:id="@+id/img_login_google"
+        android:layout_width="44dp"
+        android:layout_height="44dp"
+        android:layout_marginEnd="64dp"
+        android:src="@drawable/login_goggle"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/img_login_twitter"
+        app:layout_constraintTop_toTopOf="@+id/img_login_twitter" />
+
+    <TextView
+        android:id="@+id/or"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:gravity="center_horizontal"
+        android:text="@string/or"
+        android:textColor="@color/dark"
+        android:textSize="12sp"
+        android:textStyle="normal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/img_login_twitter"
+        app:layout_goneMarginBottom="24dp" />
+
+    <com.africa.news.widget.ProgressButtonStroke
+        android:id="@+id/join_number_btn"
+        android:layout_width="230dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/or" />
+
+    <TextView
+        android:id="@+id/have_account"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        style="@style/FontStyleNormal"
+        android:paddingTop="8dp"
+        android:text="@string/already_have_an_account"
+        android:textColor="@color/dark"
+        android:textSize="12sp"
+        android:textStyle="normal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/login_in_btn"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/join_number_btn" />
+
+    <TextView
+        android:id="@+id/login_in_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="2dp"
+        android:layout_toEndOf="@id/have_account"
+        android:paddingTop="8dp"
+        android:text="@string/log_in_with_dot"
+        android:textColor="@color/lightish_red"
+        android:textSize="12sp"
+        android:textStyle="normal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/have_account"
+        app:layout_constraintTop_toTopOf="@+id/have_account" />
+
+    <android.support.constraint.Group
+        android:id="@+id/group"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:constraint_referenced_ids="join_number_btn,have_account,login_in_btn" />
+
+
+</android.support.constraint.ConstraintLayout>

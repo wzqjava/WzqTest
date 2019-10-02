@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="12dp"
+    android:background="@drawable/shape_bg_white_4_radius"
+    android:layout_marginStart="12dp"
+    android:paddingTop="10dp"
+    android:layout_marginEnd="12dp">
+
+    <TextView
+        android:id="@+id/cancel_report"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:gravity="center"
+        android:text="@string/cancel"
+        android:textColor="#f70032"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent" />
+
+    <ImageView
+        android:id="@+id/divider"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#f2f3f5"
+        app:layout_constraintBottom_toTopOf="@+id/cancel_report" />
+
+    <RelativeLayout
+        android:id="@+id/report_view"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        app:layout_constraintBottom_toTopOf="@+id/divider">
+
+        <ImageView
+            android:id="@+id/report_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="20dp"
+            app:srcCompat="@drawable/ic_report" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="20dp"
+            android:textSize="14sp"
+            android:textColor="#1b1e25"
+            android:layout_toEndOf="@+id/report_icon"
+            android:text="@string/report" />
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/dislike_view"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        app:layout_constraintBottom_toTopOf="@+id/report_view">
+
+        <ImageView
+            android:id="@+id/dislike_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="20dp"
+            app:srcCompat="@drawable/ic_not_interest" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="20dp"
+            android:textSize="14sp"
+            android:textColor="#1b1e25"
+            android:layout_toEndOf="@+id/dislike_icon"
+            android:text="@string/not_interested" />
+
+
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>

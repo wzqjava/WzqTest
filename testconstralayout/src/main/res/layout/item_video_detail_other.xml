@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#ffffff"
+    android:orientation="vertical">
+
+    <com.africa.news.widget.LoadingView
+        android:id="@+id/other_loading"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:visibility="gone"/>
+
+    <LinearLayout
+        android:id="@+id/no_comment_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:visibility="visible"
+        android:layout_marginTop="10dp"
+        android:visibility="gone">
+        <RelativeLayout
+            android:id="@+id/title_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="14dp">
+
+            <TextView
+                android:id="@+id/recommended_title_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginBottom="4dp"
+                style="@style/FontStyleNormal"
+                android:lineSpacingExtra="0sp"
+                android:text="@string/all_comments"
+                android:textColor="#353a45"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <View
+                android:id="@+id/highlight_view"
+                android:layout_width="2dp"
+                android:layout_height="match_parent"
+                android:layout_alignTop="@id/recommended_title_name"
+                android:layout_alignBottom="@id/recommended_title_name"
+                android:background="#353a45" />
+        </RelativeLayout>
+        <ImageView
+            android:id="@+id/comment_blank"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="26dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginEnd="16dp"
+            android:src="@drawable/empty_content" />
+
+        <LinearLayout
+            android:id="@+id/user_container"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal"
+            android:paddingTop="12dp"
+            android:paddingBottom="20dp">
+
+            <com.africa.news.widget.CircleImageView
+                android:id="@+id/comment_icon"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                app:srcCompat="@drawable/ic_me" />
+
+
+            <TextView
+                android:id="@+id/comment_hint"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="3dp"
+                android:gravity="center"
+                android:text="@string/add_public_comment"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                style="@style/FontStyleMedium"
+                android:textStyle="normal"
+                android:textColor="@color/charcoal_grey"
+                android:lineSpacingExtra="0sp"
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

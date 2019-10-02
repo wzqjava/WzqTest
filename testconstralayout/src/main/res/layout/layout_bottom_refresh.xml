@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="168dp"
+    android:layout_height="48dp"
+    android:layout_gravity="center_horizontal"
+    android:background="@drawable/bg_red_refresh_rect"
+    android:gravity="center"
+    android:orientation="horizontal"
+    android:translationY="-64dp"
+    tools:translationY="0dp"
+    tools:context="com.africa.news.fragment.ArticleListFragment">
+
+    <android.support.v7.widget.AppCompatImageView
+        android:layout_width="18dp"
+        android:layout_height="18dp"
+        app:srcCompat="@drawable/ic_icon_refresh" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="11dp"
+        style="@style/FontStyleNormal"
+        android:lineSpacingExtra="0sp"
+        android:text="@string/click_to_refresh"
+        android:textColor="#ffffff"
+        android:textSize="14sp"
+        android:textStyle="normal" />
+</LinearLayout>

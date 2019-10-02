@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/shape_video_pause_fg"
+    android:clickable="true">
+
+    <TextView
+        android:id="@+id/replay_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/share_fb"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="8dp"
+        android:text="@string/share_to"
+        android:textColor="#ffffff"
+        android:textSize="12sp" />
+
+    <android.support.v7.widget.AppCompatImageView
+        android:id="@+id/share_fb"
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="8dp"
+        android:layout_toStartOf="@id/share_whatsapp"
+        app:srcCompat="@drawable/icon_facebook" />
+
+    <android.support.v7.widget.AppCompatImageView
+        android:id="@+id/share_whatsapp"
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        android:layout_alignTop="@id/share_fb"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="40dp"
+        app:srcCompat="@drawable/icon_whatsapp" />
+
+    <android.support.v7.widget.AppCompatImageView
+        android:id="@+id/share_twitter"
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        android:layout_alignTop="@id/share_fb"
+        android:layout_marginStart="40dp"
+        android:layout_toEndOf="@id/share_whatsapp"
+        app:srcCompat="@drawable/icon_twitter" />
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@id/exo_replay_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/share_fb"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="31dp"
+        android:background="@drawable/shape_white_stroke_19"
+        android:drawablePadding="4dp"
+        android:gravity="center"
+        android:minWidth="82dp"
+        android:paddingLeft="10dp"
+        android:paddingTop="6dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="6dp"
+        android:text="@string/replay"
+        android:textColor="#ffffff"
+        android:textSize="12sp" />
+
+</RelativeLayout>

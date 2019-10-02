@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#000000">
+
+    <TextView
+        android:id="@+id/video_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginRight="16dp"
+        android:ellipsize="end"
+        android:gravity="start"
+        android:textAlignment="viewStart"
+        android:maxLines="2"
+        android:textColor="#ffffff"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        tools:text="Video title" />
+
+    <TextView
+        android:id="@+id/video_author"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/video_title"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="6dp"
+        android:textColor="#9ca0ab"
+        android:textSize="12sp"
+        tools:text="addsassssssssssss" />
+
+    <TextView
+        android:id="@+id/video_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/video_author"
+        android:layout_marginStart="12dp"
+        android:layout_marginBottom="16dp"
+        android:layout_toEndOf="@id/video_author"
+        android:textColor="#9ca0ab"
+        android:textSize="12sp"
+        tools:text="1H ago" />
+
+</RelativeLayout>

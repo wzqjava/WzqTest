@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <include
+        android:id="@+id/ll_label"
+        layout="@layout/layout_follow_label" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/ll_label"
+        app:layout_goneMarginTop="10dp">
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            style="@style/FontStyleMedium"
+            android:lineSpacingExtra="4sp"
+            android:maxLines="2"
+            android:textColor="@color/dark"
+            android:textSize="16sp"
+            tools:text="Ryan CoogRyan Coogler rking Ryan Coogler On Power Of Working " />
+
+        <LinearLayout
+            android:id="@+id/pic_list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/title"
+            android:layout_marginTop="8dp"
+            android:orientation="horizontal">
+
+            <com.africa.news.widget.CircleImageView
+                android:id="@+id/image_1"
+                android:layout_width="0dp"
+                android:layout_height="78dp"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                app:circle_image_type="round" />
+
+
+            <com.africa.news.widget.CircleImageView
+                android:id="@+id/image_2"
+                android:layout_width="0dp"
+                android:layout_height="78dp"
+                android:layout_marginStart="2dp"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                app:circle_image_type="round" />
+
+            <com.africa.news.widget.CircleImageView
+                android:id="@+id/image_3"
+                android:layout_width="0dp"
+                android:layout_height="78dp"
+                android:layout_marginStart="2dp"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                app:circle_image_type="round" />
+        </LinearLayout>
+
+        <include
+            android:id="@+id/news_info"
+            layout="@layout/layout_news_info"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/pic_list"
+            android:layout_marginTop="8dp" />
+
+        <ImageView
+            android:id="@+id/not_interest"
+            android:layout_width="18dp"
+            android:layout_height="18dp"
+            android:layout_below="@id/pic_list"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="8dp"
+            android:padding="2dp"
+            android:scaleType="fitXY"
+            android:visibility="invisible"
+            app:srcCompat="@drawable/close" />
+
+        <View
+            android:id="@+id/base_divider_line"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@id/news_info"
+            android:layout_marginTop="10dp"
+            android:background="@color/pale_grey" />
+
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>

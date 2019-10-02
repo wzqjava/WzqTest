@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.news.player.widget.BaseVideoView
+        android:id="@+id/detail_video"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        app:controller_layout_id="@layout/layout_video_control"
+        app:player_error_layout_id="@layout/layout_video_error"
+        app:player_loading_layout_id="@layout/layout_video_loading"
+        app:player_preview_layout_id="@layout/layout_video_preview_detail"
+        app:player_replay_layout_id="@layout/layout_video_replay"
+        app:player_playing_hint_layout_id="@layout/layout_video_bottom_playing_hint"
+        app:player_top_hint_layout_id="@layout/layout_video_top" />
+
+    <com.africa.news.widget.LoadingView
+        android:id="@+id/detail_loading"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/comment_bottom"
+        android:layout_below="@id/detail_video"
+        android:background="#ffffff" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/video_detail_recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/comment_bottom"
+        android:layout_below="@id/detail_video"
+        android:scrollbarSize="4dp"
+        android:clipToPadding="false"
+        android:clipChildren="false"
+        android:scrollbarThumbVertical="@color/scroll_bar"
+        android:scrollbars="vertical" />
+
+    <com.africa.news.widget.CommentBottomView
+        android:id="@+id/comment_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_alignParentBottom="true" />
+
+</RelativeLayout>

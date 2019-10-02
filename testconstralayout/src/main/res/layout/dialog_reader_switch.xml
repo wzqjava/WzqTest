@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/shape_bg_white_4_radius"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="24dp"
+        android:lineHeight="19sp"
+        android:lineSpacingExtra="5sp"
+        android:text="@string/reader_dialog_title"
+        android:textColor="#1b1e25"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/confirm"
+        android:layout_width="wrap_content"
+        android:layout_height="46dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/progress_btn_bg_stroke"
+        android:gravity="center"
+        android:minWidth="126dp"
+        android:paddingStart="20dp"
+        android:textSize="14sp"
+        android:paddingEnd="20dp"
+        style="@style/FontStyleNormal"
+        android:textStyle="normal"
+        android:text="@string/reader_dialog_switch_to_reader_mode"
+        android:textColor="#353a45" />
+
+    <TextView
+        android:id="@+id/cancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="30dp"
+        android:gravity="center"
+        android:textSize="14sp"
+        android:minWidth="102dp"
+        android:textStyle="normal"
+        android:minHeight="46dp"
+        android:text="@string/reader_dialog_cancel"
+        android:textColor="#ff3a4f" />
+
+</LinearLayout>

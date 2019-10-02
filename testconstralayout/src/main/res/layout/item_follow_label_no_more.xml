@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/follow_label_loading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffff"
+        style="@style/FontStyleNormal"
+        android:gravity="center"
+        android:lineSpacingExtra="0sp"
+        android:minHeight="60dp"
+        android:text="@string/no_more_info"
+        android:textColor="#9ca0ab"
+        android:textSize="12sp"
+        android:textStyle="normal" />
+
+</LinearLayout>

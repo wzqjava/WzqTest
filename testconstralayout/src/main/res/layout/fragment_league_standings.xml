@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="34dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="63dp"
+            android:textSize="12sp"
+            android:text="@string/football_team"
+            style="@style/FontStyleNormal"
+            android:textStyle="normal"
+            android:textColor="@color/blue_grey"
+            tools:text="Team" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="126dp"
+            android:textSize="12sp"
+            android:text="@string/football_pl"
+            style="@style/FontStyleNormal"
+            android:textStyle="normal"
+            android:textColor="@color/blue_grey"
+            tools:text="PL" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="33dp"
+            android:textSize="12sp"
+            android:text="@string/football_gd"
+            style="@style/FontStyleNormal"
+            android:textStyle="normal"
+            android:textColor="@color/blue_grey"
+            tools:text="GD" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="32dp"
+            android:textSize="12sp"
+            android:text="@string/football_pts"
+            style="@style/FontStyleNormal"
+            android:textStyle="normal"
+            android:textColor="@color/blue_grey"
+            tools:text="Pts" />
+
+    </LinearLayout>
+
+    <View
+        android:background="@color/scroll_bar"
+        android:layout_width="match_parent"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_height="1dp"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rv_league_standings"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+
+
+</LinearLayout>

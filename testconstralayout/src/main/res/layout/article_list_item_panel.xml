@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:id="@+id/title_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/channel_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="4dp"
+            android:lineSpacingExtra="0sp"
+            android:textColor="#353a45"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            tools:text="For You" />
+
+        <View
+            android:id="@+id/highlight_view"
+            android:layout_width="2dp"
+            android:layout_height="match_parent"
+            android:layout_alignTop="@id/channel_title"
+            android:layout_alignBottom="@id/channel_title"
+            android:background="#fb3d5b" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/content"
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:layout_below="@id/title_container"
+        android:layout_marginStart="16dp"
+        android:textAlignment="viewStart"
+        android:layout_marginEnd="16dp"
+        android:ellipsize="end"
+        android:lineSpacingExtra="2sp"
+        android:maxLines="2"
+        android:paddingTop="12dp"
+        android:textColor="@color/dark"
+        android:textSize="14sp"
+        tools:text="The caption of Iceland pointed out all the reasons why Iceland&apos;s football has pointed..." />
+
+    <View
+        android:id="@+id/divider"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@id/content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:background="#eaecef" />
+
+    <com.africa.news.widget.CustomEndCenterImgTextView
+        android:id="@+id/view_all_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/divider"
+        android:drawablePadding="5dp"
+        android:gravity="end"
+        android:lineSpacingExtra="8sp"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
+        android:textAlignment="viewEnd"
+        android:textColor="@color/blue_grey"
+        android:textDirection="locale"
+        android:textSize="12sp"
+        android:visibility="gone"
+        tools:text="@string/view_all_articles_prefix"
+        tools:visibility="visible"
+        tools:ignore="RtlCompat" />
+</RelativeLayout>

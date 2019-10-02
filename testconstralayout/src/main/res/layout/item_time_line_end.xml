@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="@color/dark"
+    android:layout_width="match_parent"
+    android:layout_height="47dp">
+
+    <RelativeLayout
+        android:background="@color/gray_time_line_bg"
+        android:layout_marginTop="13.5dp"
+        android:layout_width="match_parent"
+        android:layout_height="20dp">
+
+        <TextView
+            android:layout_centerInParent="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:textSize="12sp"
+            android:text="@string/timeline_matches_end"
+            style="@style/FontStyleNormal"
+            android:textStyle="normal"
+            android:textColor="@color/time_line_font_gray"
+            android:gravity="center_horizontal"
+            tools:text="End " />
+
+    </RelativeLayout>
+
+    <android.support.constraint.ConstraintLayout
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <View
+            android:id="@+id/bottom_line"
+            android:layout_width="1dp"
+            android:layout_height="13.5dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:background="@color/time_line_gray"/>
+    </android.support.constraint.ConstraintLayout>
+
+</LinearLayout>

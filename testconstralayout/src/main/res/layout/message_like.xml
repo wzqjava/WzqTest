@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <com.africa.news.widget.CircleImageView
+        android:id="@+id/avatar"
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="15dp" />
+
+    <RelativeLayout
+        android:id="@+id/like_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:layout_marginStart="14dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="15dp"
+        android:layout_toEndOf="@+id/avatar">
+
+        <TextView
+            android:id="@+id/nick_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            style="@style/FontStyleNormal"
+            android:textStyle="normal"
+            android:textColor="#1b1e25"
+            android:lineSpacingExtra="0sp"
+            tools:text="Timber" />
+
+        <TextView
+            android:id="@+id/official"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@id/nick_name"
+            android:layout_marginStart="8dp"
+            android:layout_toEndOf="@id/nick_name"
+            android:background="@drawable/shape_bg_official"
+            style="@style/FontStyleMedium"
+            android:paddingLeft="5dp"
+            android:paddingTop="2dp"
+            android:paddingRight="5dp"
+            android:paddingBottom="2dp"
+            android:text="@string/official_account"
+            android:textColor="#096b27"
+            android:textSize="10sp"
+            android:textStyle="normal"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/like_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            style="@style/FontStyleNormal"
+            android:lineSpacingExtra="0sp"
+            android:textColor="#9ca0ab"
+            android:textSize="12sp"
+            android:textStyle="normal"
+            tools:text="12 hours ago" />
+
+        <TextView
+            android:id="@+id/like_sign"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/nick_name"
+            style="@style/FontStyleNormal"
+            android:lineSpacingExtra="4sp"
+            android:text="@string/like_sign"
+            android:textColor="#1b1e25"
+            android:textSize="14sp"
+            android:textStyle="normal" />
+
+        <RelativeLayout
+            android:id="@+id/reply_me_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/like_sign"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/shape_bg_comment">
+
+            <TextView
+                android:id="@+id/reply_quote"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="12dp"
+                style="@style/FontStyleNormal"
+                android:lineSpacingExtra="4sp"
+                android:textColor="#1b1e25"
+                android:textSize="12sp"
+                android:textStyle="normal"
+                tools:text="Me: I trust home team. They will win tonight, for sure. Booking Code：BKR3GAA" />
+
+            <ImageView
+                android:id="@+id/reply_img"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_below="@+id/reply_quote"
+                android:scaleType="fitXY"
+                android:src="@drawable/icon_back"
+                android:visibility="gone"
+                android:layout_marginBottom="10dp"
+                android:layout_marginStart="12dp" />
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -17,7 +17,7 @@
 package wzq.com.permissionrequest.common.activities;
 
 import android.os.Bundle;
-import android.support.v4.app.FragmentActivity;
+import androidx.fragment.app.FragmentActivity;
 
 import wzq.com.permissionrequest.common.logger.Log;
 import wzq.com.permissionrequest.common.logger.LogWrapper;

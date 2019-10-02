@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/reply_container"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="5dp">
+
+    <com.africa.news.widget.CircleImageView
+        android:id="@+id/reply_img_1"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_marginTop="8dp" />
+
+    <RelativeLayout
+        android:id="@+id/reply_content_1_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_toEndOf="@id/reply_img_1"
+        android:background="@drawable/shape_comment"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/nick_name_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/FontStyleNormal"
+            android:textColor="@color/charcoal_grey"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            tools:text="George Smith" />
+
+        <TextView
+            android:id="@+id/reply_content_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/nick_name_1"
+            android:layout_marginTop="8dp"
+            android:ellipsize="end"
+            style="@style/FontStyleNormal"
+            android:lineSpacingExtra="4sp"
+            android:maxLines="2"
+            android:textAlignment="viewStart"
+            android:textColor="#353a45"
+            android:textSize="14sp"
+            android:textStyle="normal"
+            tools:text="Rona: I trRona: I trRona: I trust home team.RonaI trRona: I trust home team.RonaI trust home team.Rona: I trust home team.ust home team. " />
+
+    </RelativeLayout>
+
+    <com.africa.news.widget.CircleImageView
+        android:id="@+id/reply_img_2"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_below="@id/reply_content_1_container"
+        android:layout_marginTop="16dp" />
+
+    <RelativeLayout
+        android:id="@+id/reply_content_2_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/reply_content_1_container"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_toEndOf="@id/reply_img_2"
+        android:background="@drawable/shape_comment"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/nick_name_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/FontStyleNormal"
+            android:textColor="@color/charcoal_grey"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            tools:text="George Smith" />
+
+        <TextView
+            android:id="@+id/reply_content_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/nick_name_2"
+            android:layout_marginTop="8dp"
+            android:ellipsize="end"
+            style="@style/FontStyleNormal"
+            android:lineSpacingExtra="4sp"
+            android:maxLines="2"
+            android:textAlignment="viewStart"
+            android:textColor="#353a45"
+            android:textSize="14sp"
+            android:textStyle="normal"
+            tools:text="Rona: I trRona: I trRona: I trust home team.RonaI trRona: I trust home team.RonaI trust home team.Rona: I trust home team.ust home team. " />
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/reply_count"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/reply_content_2_container"
+        android:layout_alignStart="@id/reply_content_1_container"
+        style="@style/FontStyleMedium"
+        android:lineSpacingExtra="0sp"
+        android:paddingStart="4dp"
+        android:paddingTop="8dp"
+        android:paddingEnd="12dp"
+        android:paddingBottom="8dp"
+        android:text="@string/view_replies_prefix"
+        android:textColor="#3656a3"
+        android:textSize="12sp"
+        android:textStyle="normal"
+        tools:text="View 21 replies" />
+
+</RelativeLayout>

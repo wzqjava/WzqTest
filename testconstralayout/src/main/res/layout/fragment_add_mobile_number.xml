@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fragment_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ImageView
+        android:id="@+id/back"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_alignParentStart="true"
+        android:background="?android:attr/selectableItemBackground"
+        android:padding="12dp"
+        android:src="@drawable/icon_back" />
+
+    <ImageButton
+        android:id="@+id/close"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="4dp"
+        android:background="?android:attr/selectableItemBackground"
+        android:padding="12dp"
+        android:tint="@color/account_gray"
+        app:srcCompat="@drawable/ic_close_black_24dp" />
+    　
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/back"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="12dp"
+        android:text="@string/mobile_hint"
+        android:textColor="#1b1e25"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/title2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/title"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
+        android:text="@string/mobile_hint2"
+        android:textColor="#1b1e25"
+        android:textSize="12sp" />
+
+    <com.africa.news.widget.ProgressButton
+        android:id="@+id/next"
+        android:layout_width="92dp"
+        android:layout_height="46dp"
+        android:layout_below="@id/title2"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:text="@string/confirm" />
+
+    <FrameLayout
+        android:id="@+id/mobile_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/next"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_toStartOf="@id/next">
+
+        <TextView
+            android:id="@+id/prefix"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            tools:text="+234" />
+
+        <com.africa.news.widget.ClearEditText
+            android:id="@+id/mobile"
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:background="@drawable/edit_text_bg"
+            android:digits="0123456789"
+            android:hint="@string/mobile_number"
+            android:imeOptions="actionDone"
+            android:inputType="phone"
+            android:maxLength="@integer/mobile_max_length"
+            android:maxLines="1"
+            android:paddingStart="60dp"
+            android:paddingEnd="11dp"
+            android:textColor="#4a4a4a"
+            android:textColorHint="#bbbbbb"
+            android:textSize="14sp" />
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/error"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/mobile_container"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="2dp"
+        android:textAppearance="@style/ErrorTextView" />
+
+
+</RelativeLayout>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="35dp">
+
+    <ImageView
+        android:id="@+id/close"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="12dp"
+        app:srcCompat="@drawable/ic_close_black_24dp" />
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/close"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="12dp"
+        style="@style/FontStyleNormal"
+        android:lineSpacingExtra="8sp"
+        android:text="@string/set_nick_name"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        tools:text="Set Nickname" />
+
+    <TextView
+        android:id="@+id/desc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/title"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        style="@style/FontStyleNormal"
+        android:lineSpacingExtra="8sp"
+        android:text="@string/set_nick_desc"
+        android:textColor="@color/dark"
+        android:textSize="12sp"
+        android:textStyle="normal" />
+
+
+    <com.africa.news.widget.ProgressButton
+        android:id="@+id/save"
+        android:layout_width="92dp"
+        android:layout_height="44dp"
+        android:layout_below="@id/desc"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="14dp"
+        android:layout_marginEnd="16dp" />
+
+    <com.africa.news.widget.KeyBackClearEditText
+        android:id="@+id/set_nick_edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/desc"
+        android:layout_alignBottom="@id/save"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="7dp"
+        android:layout_toStartOf="@id/save"
+        android:background="@drawable/edit_text_bg"
+        android:digits="0123456789"
+        style="@style/FontStyleNormal"
+        android:gravity="start|center_vertical"
+        android:hint="@string/set_nick_hint"
+        android:imeOptions="actionDone"
+        android:maxLength="@integer/mobile_max_length"
+        android:maxLines="1"
+        android:textColor="#4a4a4a"
+        android:textColorHint="#bbbbbb"
+        android:textCursorDrawable="@drawable/shape_cursor"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/hint_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/set_nick_edit"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="5dp"
+        style="@style/FontStyleNormal"
+        android:textColor="#ca203a"
+        android:textSize="10sp"
+        android:textStyle="normal" />
+
+</RelativeLayout>

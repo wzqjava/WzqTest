@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="24dp"
+    android:layout_marginStart="12dp"
+    android:layout_marginTop="16dp"
+    android:background="@drawable/bg_follow_loge_name"
+    android:gravity="center_vertical"
+    android:maxWidth="160dp"
+    android:orientation="horizontal"
+    android:visibility="gone"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    tools:visibility="visible">
+
+    <com.africa.news.widget.CircleImageView
+        android:id="@+id/iv_logo"
+        android:layout_width="18dp"
+        android:layout_height="18dp"
+        android:layout_marginStart="3dp"
+        app:srcCompat="@drawable/ic_ico_label_2" />
+
+    <TextView
+        android:id="@+id/tv_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="6dp"
+        android:layout_marginEnd="10dp"
+        android:ellipsize="end"
+        style="@style/FontStyleNormal"
+        android:lineSpacingExtra="0sp"
+        android:lines="1"
+        android:maxWidth="160dp"
+        android:textColor="@color/charcoal_grey"
+        android:textSize="12sp"
+        android:textStyle="normal"
+        tools:text="EIcelan" />
+
+</LinearLayout>

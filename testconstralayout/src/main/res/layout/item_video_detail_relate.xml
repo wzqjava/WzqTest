@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#000000">
+
+    <FrameLayout
+        android:id="@+id/preview_container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:layout_marginBottom="12dp"
+        android:layout_marginStart="16dp">
+
+        <com.africa.news.widget.CircleImageView
+            android:id="@+id/relate_img"
+            android:layout_width="160dp"
+            android:layout_height="90dp"
+            app:circle_image_type="round" />
+
+        <TextView
+            android:id="@+id/relate_duration"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|end"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:textColor="#ffffff"
+            android:textSize="12sp"
+            tools:text="11:12" />
+
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/relate_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="viewStart"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="12dp"
+        android:layout_toEndOf="@id/preview_container"
+        android:ellipsize="end"
+        android:gravity="start|top"
+        android:maxLines="4"
+        android:minHeight="76dp"
+        android:textColor="#ffffff"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        tools:text="News Digest: Klopp 'Not Over The Moon' as Bayern Frustrats." />
+
+    <TextView
+        android:id="@+id/relate_author"
+        android:gravity="start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/relate_title"
+        android:layout_alignStart="@id/relate_title"
+        android:textColor="#9ca0ab"
+        android:textSize="12sp"
+        tools:text="Author" />
+
+</RelativeLayout>

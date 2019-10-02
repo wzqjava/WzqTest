@@ -1,0 +1,475 @@
+<resources>
+
+    <!--no-use-->
+    <string name="remain_n_sms">تم إرسال رمز التحقق. لديك %d لطلب رمز آخر</string>
+    <string name="update_stories">%d قصة مجددة لك</string>
+
+
+    <!--no-use-->
+
+
+    <string name="need_read_phone">AFRICA NEWS تحتاج إلى  READ_PHONE_STATE</string>
+    <string name="go_to_settings">اذهب إلى الإعدادات</string>
+    <string name="exit">خروج</string>
+
+    <string name="home">الرئيسية</string>
+    <string name="video">الفيديو</string>
+    <string name="me">أنا</string>
+    <string name="empty">لا توجد بيانات</string>
+    <string name="error">خطأ… إعادة المحاولة</string>
+    <string name="loading">جاري تحميل…</string>
+    <string name="net_error">لا يوجد الاتصال بالإنترنت</string>
+    <string name="loading_finish">تم التحميل</string>
+
+    <string name="pull_down_to_refresh">جر للتجديد</string>
+    <string name="release_to_refresh">اطلق للتجديد</string>
+    <string name="service_error">آسف، خارج الخدمة</string>
+    <string name="n_new_videos">%d فيديوهات جديدة</string>
+
+    <string name="network_error">الإنترنت لا يعمل. تفضل بإعادة المحاولة لاحقا</string>
+    <string name="no_more_stories">آسف، لا يوجد المزيد من القصص</string>
+    <string name="channels">قنوات</string>
+    <string name="tap_channel">انقر لدخول القناة</string>
+    <string name="edit">تحرير</string>
+    <string name="edit_hint">لإعادة الترتيب، اضغط باستمرار &amp; انقل</string>
+    <string name="more_channels">المزيد من القنوات</string>
+    <string name="done">تم</string>
+    <string name="reader_mode">نمط القارئ</string>
+    <string name="web_mode">نمط الويب</string>
+    <string name="write_a_comment">كتابة التعليقات…</string>
+    <string name="share_to_my_friend">مشاركة إلى أصدقائي</string>
+    <string name="refresh_hint">"قد قرأت ما إلى هنا، انقر للحصول على المزيد من المقالات "</string>
+    <string name="report">الإبلاغ عنه</string>
+    <string name="not_interested">عدم الاهتمام</string>
+    <string name="register_or_login">إنشاء حساب/تسجيل الدخول</string>
+    <string name="register_hint">كتابة التعليقات وحفظ تاريخ القراءة</string>
+    <string name="cancel">إلغاء</string>
+
+    <!--account start-->
+    <string name="register_hint2">إذا لم تكن مسجلا فسيكون الرقم الذي تم إدخاله في الآتي حسابك لتسجيل الدخول لـMORE</string>
+    <string name="password_hint">إنشاء كلمة المرور</string>
+    <string name="reset_password">إعادة تعيين كلمة المرور</string>
+    <string name="reset_password_done">تمت إعادة تعيين كلمة المرور</string>
+    <string name="reset_password2">إعادة تعيين كلمة المرور</string>
+    <string name="password_hint2">يجب أن تتكون كلمة المرور من 6 إلى 16 حرفا</string>
+    <string name="password_hint3">إدخال كلمة المرور</string>
+    <string name="password_hint4">إدخال كلمة المرور ل %s</string>
+    <string name="password_error">لا يمكن أن تتكون كلمة المرور من أقل من 6 أحرف.</string>
+    <string name="password_error2">لا يمكن أن تتكون كلمة المرور من أكثر من 16 حرفا.</string>
+    <string name="password_error3">يجب أن تحتوي كلمة المرور على حرف واحد ورقم واحد على الأقل.</string>
+    <string name="password_error4">لا يمكن أن تحتوي كلمة المرور على أرقام متعددة متتالية.</string>
+    <string name="facebook_error">حدث خطأ أثناء الاتصال بـ Facebook.</string>
+    <string name="thirdpart_error">حدث خطأ أثناء الاتصال بـ %s</string>
+    <string name="register_or_login2">إنشاء حساب/تسجيل الدخول</string>
+    <string name="verify_mobile">تحقق من رقم الهاتف</string>
+    <string name="verify_mobile2">أرسلنا إليك رمز تحقق متكون من 6 أرقام لـ\n %1$s %2$s تغيير الرقم</string>
+
+    <string name="send_code2">أرسل SMS اختباري&#8230;</string>
+    <string name="send_code3">تفضل أرسل SMS لـ %1$s من %2$s %3$s برمز التحقق في الآتي</string>
+
+    <string name="resend_code">إعادة الإرسال</string>
+    <string name="countdown">إعادة الإرسال %ds</string>
+    <string name="sending_code">أرسل رمز التحقق&#8230;</string>
+
+    <string name="code_wrong">رمز التحقق خاطئ. يرجى إعادة المحاولة.</string>
+    <string name="code_expired">انتهت صلاحية هذا الرمز، يرجى التحقق منه وإعادة المحاولة.</string>
+    <string name="wrong_password">كلمة المرور خاطئة. يرجى إعادة المحاولة.</string>
+    <string name="wrong">حدث خطأ ما، يرجى إعادة المحاولة.</string>
+
+    <string name="code_wrong2">فشل التحقق من الشهادة</string>
+    <string name="code_wrong3">لقد أرسلنا لك رمز التحقق 3 مرات خلال 24 ساعة. وإذا لم تستلمه، يرجى محاولة استخدام وسائط التواصل الاجتماعي الخاصة بك لتسجيل الدخول.</string>
+    <string name="send_sms">إرسال SMS</string>
+    <string name="sent_sms">قد أرسلت SMS</string>
+    <string name="send_sms_again">إعادة إرسال SMS</string>
+
+    <string name="not_registered">لم يتم تسجيل رقم الهاتف.</string>
+    <string name="change_number">تغيير الرقم</string>
+    <string name="username">اسم المستخدم</string>
+    <string name="select_region">للحصول على تجربة أفضل،\nيرجى تحديد منطقتك</string>
+    <string name="mobile_number">رقم الهاتف</string>
+    <string name="sign_up">إنشاء الحساب</string>
+    <string name="log_in">تسجيل الدخول</string>
+    <string name="log_out">تسجيل الخروج</string>
+    <string name="log_out_hint">هل تريد تسجيل الخروج من MORE؟ قد تفوتك إخطارات هامة.</string>
+    <string name="sign_up_hint_1">مع إنشاء حساب، أنت توافق على ..</string>
+    <string name="sign_up_hint_2">شروط الخدمة</string>
+    <string name="sign_up_hint_3">سياسة الخصوصية</string>
+    <string name="forgot_password">هل نسيت كلمة المرور؟</string>
+    <string name="find_account">استرداد الحساب</string>
+    <string name="find_account2">لإعادة تعيين كلمة المرور، يرجى تأكيد حسابك أولا.</string>
+    <string name="again">اضغط مرة أخرى للخروج</string>
+    <string name="next">التالي</string>
+    <string name="new_password">كلمة المرور الجديدة</string>
+    <string name="password">كلمة المرور</string>
+    <string name="changing_region">جاري تغيير</string>
+    <string name="hide">إخفاء</string>
+    <string name="show">إظهار</string>
+    <string name="no_connectivity">يرجى التحقق من الاتصال بالإنترنت وإعادة المحاولة.</string>
+    <string name="line_busy">النظام مشغول، يرجى إعادة المحاولة لاحقا.</string>
+    <string name="deposit_no_connectivity">لا يوجد اتصال بالانترنت، يرجى إعادة المحاولة.</string>
+    <string name="token_expired">انقضت مهلة الاتصال. يرجى إعادة المحاولة.</string>
+    <string name="already_registered">قد تم تسجيل رقم الهاتف.</string>
+    <string name="account_frozen">تم قفل حسابك مؤقتا</string>
+    <string name="proceed">الاستمرار</string>
+    <string name="ok">حسنا</string>
+    <string name="comeon">الاستمرار</string>
+    <string name="facebook_login">تسجيل الدخول بـ فيسبوك</string>
+    <string name="reg_or_login">إنشاء حساب/تسجيل الدخول</string>
+    <string name="or">أو</string>
+    <string name="same_passwd_error">لا يمكن أن تكون كلمة المرور الجديدة هي كلمة المرور القديمة.</string>
+    <string name="password_hint5">تحقق من هويتك</string>
+    <string name="password_hint6">قبل الوصول إلى المعلومات الحساسة، تحتاج إلى التحقق من هويتك عن طريق إدخال كلمة المرور القديمة.</string>
+    <string name="succeeded">نجاح</string>
+    <string name="password_hint7">الرجاء إدخال كلمة المرور القديمة</string>
+    <string name="password_hint8">كلمة المرور خاطئة. يرجى إعادة المحاولة.</string>
+    <string name="call_1">اتصال هاتفي مجاني للتحقق</string>
+    <string name="call_2">يرجى الاتصال بنا بالرقم الذي سجلته.</string>
+    <string name="dial">اتصال</string>
+    <string name="opps">آه</string>
+    <string name="no_call">يبدو أنك لم تتصل بنا بعد، هل تريد إلغاء الاتصال؟</string>
+    <string name="no_code">أ لم تتسلم رمز التحقق؟</string>
+    <string name="dialed">قد اتصلت بهذا الرقم</string>
+    <string name="dial_1">إكمال هذه المعاملة</string>
+    <string name="dial_2">تفضل بالاتصال الهاتفي</string>
+    <string name="dial_3">ثم أرسل مرجع المعاملة</string>
+    <string name="dial_exit">إذا كنت قد انتهيت من الاتصال، فيمكنك إما الذهاب إلى المعاملات للتحقق من التفاصيل، أو الانتظار لفترة للحصول على النتائج.</string>
+
+
+    <string name="old_password">كلمة المرور القديمة</string>
+    <string name="try_again">إعادة المحاولة</string>
+    <string name="call">الاتصال الهاتفي بدلا</string>
+    <string name="timeout">انقضاء مهلة الجلسة</string>
+
+    <string name="mobile_hint">إضافة رقم الهاتف</string>
+    <string name="mobile_hint2">إضافة رقم الهاتف ستساعدك على إيداع/ سحب أموالك بسهولة</string>
+
+    <string name="login">إنشاء حساب/تسجيل الدخول</string>
+    <string name="login2">تسجيل الدخول</string>
+    <string name="already_completed">هل أكملت بالفعل؟</string>
+    <string name="already_h">هل لديك حساب بالفعل؟ سجل الدخول</string>
+    <string name="create_new">إنشاء حساب جديد</string>
+    <string name="verify_account">التحقق من الحساب</string>
+    <string name="change">تغيير</string>
+    <!--account end-->
+
+    <string name="skip">ترك</string>
+    <string name="you_need_a_more_account_to_communicate_with_others">تحتاج إلى حساب MORE للتواصل مع الآخرين</string>
+    <string name="login_with_your_social_media">تسجيل الدخول باستخدام وسائط التواصل الاجتماعي الخاصة بك</string>
+    <string name="we_will_never_post_anything_without_your_permission">لن ننشر أي شيء دون إذنك</string>
+    <string name="join_with_mobile_number">الانضمام برقم الهاتف</string>
+    <string name="already_have_an_account">هل لديك حساب بالفعل؟</string>
+    <string name="log_in_with_dot">تسجيل الدخول</string>
+    <string name="create_an_account_with_your_mobile_number">إنشاء حساب جديد برقم هاتفك</string>
+    <string name="you_ll_need_a_password">تحتاج إلى كلمة المرور</string>
+    <!--guide end-->
+
+    <string name="retry">إعادة المحاولة</string>
+    <string name="failed_load_data">فشل تحميل البينات. حدث خطأ أثناء الاتصال بالخادم.</string>
+
+    <string name="replay">إعادة التشغيل</string>
+    <string name="share_to">مشاركة إلى</string>
+    <string name="save_data_hint">لا يتم تحميل الصور تلقائيا لتقليل استهلاك البيانات</string>
+    <string name="message">الرسائل</string>
+    <string name="saved">محفوظ</string>
+    <string name="feedback">تقييم</string>
+    <string name="we_sent_you_a_code">أرسلنا إليك رمز التحقق</string>
+    <string name="code_sent">تم إرسال رمز التحقق</string>
+    <string name="registration_successful">تم تسجيل الدخول بنجاح</string>
+    <string name="enter_it_blow_to_verify_number">أدخل ما في الآتي للتحقق من %1$s %2$s</string>
+    <string name="you_have_d_left_to_request_another_one">لديك %d متبقية لطلب آخر</string>
+    <string name="save_error">فشل حفظ اسم المستخدم</string>
+    <string name="pls_enter_nickname">الرجاء إدخال اسم المستخدم</string>
+    <string name="nickname_was_taken">قد استخدم هذا الاسم، تفضل اختر اسما آخر</string>
+    <string name="nickname_saved">تم حفظ اسم المستخدم</string>
+    <string name="set_nick_name">إنشاء اسم المستخدم</string>
+    <string name="set_nick_desc">أعط اسما رائعا لنفسك لبدء المحادثة.</string>
+    <string name="set_nick_hint">15 حرفا على الأكثر</string>
+    <string name="nick_save">حفظ</string>
+    <string name="nickname_later">يمكنك إنشاء اسم المستخدم في حسابك</string>
+    <string name="default_over_limit_desc">يمكننا أن نرسل لك رمز التحقق 3 مرات خلال 24 ساعة فقط. وإذا لم تستلمه، يرجى محاولة استخدام وسائط التواصل الاجتماعي الخاصة بك لتسجيل الدخول.</string>
+
+
+    <string name="change_avatar">تغيير الصورة الرمزية</string>
+    <string name="nick_name">اسم المستخدم</string>
+    <string name="avatar_gallery">معرض الصور الرمزية</string>
+    <string name="avatar_saved">تم حفظ الصورة الرمزية</string>
+    <string name="nickname_taken">قد استخدم هذا الاسم، تفضل اختر اسما آخر</string>
+    <string name="avatar_failed">فشل حفظ الصورة الرمزية</string>
+    <string name="save_nick">تم حفظ اسم المستخدم</string>
+    <string name="first_name">اسم شخصي</string>
+    <string name="date_birth">تاريخ الميلاد</string>
+    <string name="gender">النوع</string>
+    <string name="setting">الإعدادات</string>
+    <string name="email">البريد الإلكتروني</string>
+    <string name="change_passwd">تغيير كلمة المرور</string>
+    <string name="last_name">اسم العائلة</string>
+    <string name="edit_profile">تحرير ملف التعريف</string>
+    <string name="save">حفظ</string>
+    <string name="saving">جاري حفظ…</string>
+    <string name="female">أنثى</string>
+    <string name="male">ذكر</string>
+    <string name="add_email_address">أدخل عنوان البريد الإلكتروني الخاص بك</string>
+    <string name="email_address">عنوان البريد الإلكتروني</string>
+    <string name="verify">التحقق</string>
+    <string name="submitting_more">جاري تقديم&#8230;</string>
+    <string name="nickname_failed">فشل حفظ اسم المستخدم</string>
+    <string name="failed_load_gallery">فشل تحميل المعرض</string>
+    <string name="withdraw_error3">آسف، حدث خطأ ما، يرجى إعادة المحاولة لاحقا.</string>
+    <string name="date_birth_tip">يجب أن يكون عمرك 18 عامًا على الأقل</string>
+    <string name="no_internet">لا يوجد الاتصال بالانترنت، يرجى إعادة المحاولة لاحقا.</string>
+    <string name="network_failed">آسف، حدث خطأ ما.</string>
+    <string name="reload">إعادة التحميل</string>
+    <string name="verified_email">البريد الإلكتروني المتحقق:</string>
+
+    <string name="push_notification">الإشعارات</string>
+    <string name="clear_cache">مسح ذاكرة التخزين</string>
+    <string name="cache_cleared">تم مسح ذاكرة التخزين</string>
+    <string name="change_password">تغيير كلمة المرور</string>
+    <string name="may_miss_important_notices">قد تفوتك إخطارات هامة</string>
+    <string name="turn_on_this_save_data">قم بتشغيل هذا لتوفير البيانات</string>
+    <string name="clear_all_cache">هل تريد مسح ذاكرة التخزين كلها؟</string>
+
+    <string name="save_for_later">حفظ لوقت لاحق</string>
+    <string name="remove_from_saved">إزالة من القصص المحفوظة</string>
+    <string name="copy_link">نسخ الموقع الإلكتروني</string>
+    <string name="removed">تمت الإزالة</string>
+    <string name="story_saved">تم حفظ القصة</string>
+    <string name="can_read_stories_saved_offline">يمكنك قراءة القصص المحفوظة في \ "دون الاتصال\" في أي وقت دون الاتصال بالإنترنت.</string>
+    <string name="copied">تم النسخ</string>
+    <string name="show_less_like_this">عرض أقل من المحتوى مثل هذا</string>
+    <string name="hide_all_from_this_author">إخفاء كل المشاركات من هذا المؤلف</string>
+    <string name="obsolete_content">المحتوى القديم</string>
+    <string name="sexual_content">المحتوى الجنسي</string>
+    <string name="violent_content">المحتوى العنيف والمهدد</string>
+    <string name="fake_news">الأخبار المزيفة</string>
+    <string name="ad_or_spam">الإعلان أو البريد المزعج</string>
+    <string name="clickbait">العنوان المضلل</string>
+    <string name="media_wont_load">فشل تحميل الصور أو الفيديوهات</string>
+    <string name="other">مشكلة أخرى</string>
+    <string name="send">إرسال</string>
+    <string name="write_yours">اكتب…</string>
+    <string name="thanks_report_check_it">شكرا على إبلاغك، وسوف نتحقق منه</string>
+    <string name="thank_you_for_reporting">شكرا على إبلاغك</string>
+    <string name="will_see_less_content">سترى أقل من المحتوى من هذا النوع</string>
+    <string name="add_public_reply">إضافة رد…</string>
+    <string name="login_to_check_saved_content">يرجى تسجيل الدخول لمشاهدة المحتويات المحفوظة.</string>
+
+    <string name="today">اليوم</string>
+    <string name="live">البث الحي</string>
+    <string name="result">النتيجة</string>
+    <string name="official_account">الرسمية</string>
+    <string name="reply_sign">الرد على تعليقك:</string>
+    <string name="like_sign">الإعجاب بتعليقك:</string>
+    <string name="no_more_info">لا يوجد المزيد من المعلومات</string>
+    <string name="failed">فشل</string>
+    <string name="network_error_hint">تفضل باختبار الانترنت وإعادة المحاولة.</string>
+    <string name="no_messages">لا توجد رسالة</string>
+    <string name="notification">الإخطار</string>
+    <string name="replies">الردود</string>
+    <string name="reply_hint">أعلمني عندما رد الأشخاص على تعليقاتي</string>
+    <string name="likes">إعجاب</string>
+    <string name="like_hint">أعلمني عندما أعطى الأشخاص إعجاب لتعليقاتي</string>
+    <string name="view_in_web_mode">تصفح في نمط الويب</string>
+    <string name="all_comments">كل التعليقات</string>
+    <string name="reply">رد</string>
+    <string name="no_more_comments">لا يوجد المزيد من المعلومات</string>
+    <string name="load_failed">فشل التحميل. انقر لإعادة التحميل.</string>
+    <string name="view_replies_prefix">عرض %s رد</string>
+    <string name="hot_comments">التعليقات الساخنة</string>
+    <string name="offline_reading_settings">إعداد القراءة دون الاتصال</string>
+    <string name="choose_channels_to_download">اختر قنوات للتنزيل</string>
+    <string name="articles_per_channel">عدد المقالات لكل قناة</string>
+    <string name="start_download">بدء التنزيل</string>
+    <string name="articles_about_kb_data">تنزيل %d مقالة، حوالي %s من البيانات</string>
+    <string name="no_channel_toast">الرجاء اختيار قناة واحدة على الأقل</string>
+    <string name="tap_to_update">انقر للتجديد</string>
+    <string name="view_more_channels">عرض المزيد من القنوات</string>
+    <string name="offline_reading">القراءة دون الاتصال</string>
+    <string name="hide_channels">إخفاء القنوات</string>
+    <string name="reply_to_prefix">رد على %s</string>
+    <string name="empty_comment">تفضل اكتب تعليقا</string>
+    <string name="succeed_sent">إرسال</string>
+    <string name="write_comment">التعليقات</string>
+    <string name="view_all_articles_prefix">عرض كل المقالات(%d)</string>
+    <string name="downloading_articles_prefix">تحميل المقالات(%1d/%2d) …</string>
+    <string name="successfully_downloaded_prefix">تم تحميل %d مقالة</string>
+    <string name="no_replies_available">لا توجد ردود متاحة</string>
+    <string name="reply_to_this_comment">رد على هذا التعليق</string>
+    <string name="to_nickname_prefix">رد على %s:</string>
+    <string name="recent_comments">التعليقات الأخيرة</string>
+    <string name="official">الرسمية</string>
+    <string name="no_comments_available">لا توجد تعليقات متاحة</string>
+
+    <string name="select_all">تحديد الكل</string>
+    <string name="delete_cnt">حذف (%d)</string>
+    <string name="delete">حذف</string>
+    <string name="no_content_selected">لم يتم تحديد أي شيء</string>
+    <string name="cnt_delete_successfully">تم حذف %d بنجاح</string>
+
+    <string name="reader_dialog_title">لا يمكن تخصيص الخطوط في نمط الويب، يرجى العودة إلى نمط القارئ.</string>
+    <string name="reader_dialog_switch_to_reader_mode">التبديل إلى نمط القارئ</string>
+    <string name="reader_dialog_cancel">إلغاء</string>
+    <string name="confirm">تأكيد</string>
+    <string name="recommended_read">الموصى به للقراءة</string>
+    <string name="related_stories">القصص المتعلقة بها</string>
+    <string name="like">إعجاب</string>
+    <string name="downloa_new_articles">تحميل مقالات جديدة</string>
+    <string name="d_ago_suffix">قبل %dd</string>
+    <string name="h_ago_suffix">قبل %dh</string>
+    <string name="min_ago_suffix">قبل %dmin</string>
+    <string name="just_now">منذ قليل</string>
+    <string name="temp_user">مستخدم MORE</string>
+    <string name="clear_offline_tip">هل تريد حذف كل المقالات</string>
+    <string name="updated_1_d_ago">تم التجديد قبل 1d</string>
+    <string name="updated_h_prefix_ago">تم التجديد قبل %dh</string>
+    <string name="updated_min_prefix_ago">تم التجديد قبل %dmin</string>
+    <string name="just_updated">تم التجديد الآن فقط</string>
+    <string name="no_replies">لا توجد تعليقات</string>
+
+    <string name="reply_num">رد (%d)</string>
+    <string name="single_reply">رد (1)</string>
+    <string name="all_replies">كل الردود</string>
+    <string name="refresh">تجديد</string>
+    <string name="me_line">أنا:\n</string>
+    <string name="no_more_comments_line">-لا يوجد المزيد من التعليقات-</string>
+    <string name="loading_more_comments">جاري تحميل المزيد من التعليقات</string>
+    <string name="loading_more_news">جاري تحميل المزيد من الأخبار…</string>
+    <string name="login_successful">تسجيل الدخول ناجح</string>
+    <string name="change_nick_name_tips">يمكنك تغيير اسم المستخدم في أي وقت.\n  1. انقر على الصورة الرمزية في الركن الأيمن العلوي من الصفحة الرئيسية \ n2. انقر على تحرير ملف الاعريف \n</string>
+    <string name="and">و</string>
+    <string name="tell_us_more">أخبرنا المزيد</string>
+    <string name="view_original">عرض مقالة أصلية</string>
+    <string name="comment">تعليق</string>
+    <string name="notifications">الإخطارات</string>
+    <string name="update_articles">%d مقالات جديدة</string>
+    <string name="new_sign">جديد</string>
+    <string name="login_or_reg">إنشاء حساب/تسجيل الدخول</string>
+    <string name="no_related_content">لا يوجد المحتوى المتعلق بها</string>
+    <string name="article_wrong">آسف، حدث خطأ ما، يرجى إعادة المحاولة لاحقا.</string>
+    <string name="no_reply">لا يوجد رد</string>
+    <string name="login_failed">فشل تسجيل الدخول</string>
+    <string name="third_login_successful">تسجيل الدخول ناجح</string>
+    <string name="offline_no_internet">لا يوجد اتصال بالانترنت، يرجى إعادة المحاولة لاحقا.</string>
+    <string name="what_do_you_love_reading_about">ماذا تحب للقراءة؟</string>
+    <string name="select_prefix_to_continue">اختر %d للاستمرار</string>
+    <string name="select_continue">الاستمرار</string>
+    <string name="latest_news">آخر الأخبار</string>
+    <string name="no_related_try_again">لا يوجد محتوى متعلق\n يرجى التحقق من القنوات الأخرى</string>
+
+    <!-- 启动崩溃-->
+    <string name="crash_clean_title">خطأ في تشغيل MORE</string>
+    <string name="crash_clean_content">حدث خطأ أثناء تشغيل التطبيق، يمكنك إصلاحه عن طريق مسح ذاكرة التخزين.</string>
+    <string name="clear">مسح</string>
+
+    <!-- update-->
+    <string name="version">الإصدار</string>
+    <string name="update">جاري تحميل التحديث</string>
+    <string name="check_update">فحص التجديد</string>
+    <string name="no_update">لا تحديث</string>
+    <string name="force_update">يوجد إصدار جديد%s، يرجى التجديد قبل استخدام هذا التطبيق</string>
+    <string name="no_new_version">لا يوجد إصدار جديد</string>
+    <string name="new_version_found">يوجد إصدار جديد</string>
+    <string name="checking_update">فحص التحديث</string>
+    <string name="error_fail_to_get_version">فشل فحص معلومات التجديد. يرجى إعادة المحاولة لاحقا.</string>
+    <string name="update_now">تجديد الآن</string>
+
+    <!-- permission-->
+    <string name="permission_name_phone">الهاتف</string>
+    <string name="permission_name_storage">التخزين</string>
+    <string name="message_permission_always_failed">لن تعمل هذه الوظيفة بشكل صحيح ما لم تمنح أذونات لـ MORE للوصول إلى العنصر التالي:\n\n%1$s</string>
+    <string name="message_permission_rationale">للمتابعة ، افتح Settings-Permission ، ثم اسمح للعنصر المدرج:\n\n%1$s</string>
+    <string name="allow">سماح</string>
+    <string name="deny">رفض</string>
+    <string name="downloading">جاري التحميل…</string>
+    <string name="disk_space_not_enough">لا تكفي مساحة القرص</string>
+    <string name="allow_to_write_to_storage">يرجى السماح للكتابة إلى التخزين أولا</string>
+    <string name="download_failed">فشل التحميل.</string>
+    <string name="download_completed">تم التحميل.</string>
+
+
+    <!--follow-->
+    <string name="unfollow">هل تريد إلغاء متابعة %s؟</string>
+    <string name="start_reading">بدء القراءة</string>
+    <string name="recommended">الموصى به</string>
+    <string name="recommended_for_you">الموصى به لك</string>
+    <string name="popular_on_more">شائع</string>
+    <string name="more">المزيد</string>
+    <string name="browse_categories">تصفح الفئات</string>
+    <string name="follow">تابع</string>
+    <string name="following">متابعة</string>
+    <string name="following_title">مواضيع المتابعة</string>
+    <string name="explore_title">استكشاف مواضيع</string>
+
+    <string name="no_recent_articles">لا توجد مقالات جديدة</string>
+    <string name="followers">متابع</string>
+    <string name="you_sure_to_unfollow">هل تريد إلغاء متابعة %s؟</string>
+    <string name="no_followings_yet">لا متابعة حتى الآن</string>
+    <string name="follow_some_topics">متابعة بعض المواضيع</string>
+    <string name="follow_more_topics">متابعة المزيد من المواضيع</string>
+    <string name="no_recomended_topics">لا توجد المواضيع الموصى بها</string>
+    <string name="my_following">متابعاتي</string>
+    <string name="country_language">الدولة &amp; اللغة</string>
+    <string name="select_your_country_amp_language">انقر على بلدك ولغتك الخاصه</string>
+    <string name="add">إضافة</string>
+    <string name="view_all">عرض الكل</string>
+    <string name="recommending">التوصية</string>
+    <string name="follow_label_share_default">راجع الصفحة لـ%s\ في تطبيق More</string>
+
+    <string name="no_network">عدم توفر شبكة الإنترنت. يرجى إعادة المحاولة لاحقا</string>
+    <string name="click_to_refresh">إعادة التحميل</string>
+    <string name="related_news">الأخبار المتعلقة</string>
+    <string name="explore">استكشاف مواضيع</string>
+    <string name="install_twitter_first">يرجى تحميل تطبيق تويتر أولا</string>
+    <string name="mobile_error">الرجاء إدخال رقم هاتف صحيح</string>
+    <string name="check_connection_try">يرجي فحص شبكة الانترنت وإعادة المحاولة.</string>
+    <string name="save_data_mode">نمط توفير بيانات الخلوي</string>
+    <string name="invalid_email_address">يرجى إدخال عنوان بريد إلكتروني صحيح</string>
+    <string name="offline_download_tips">تحميل الآن\\nقراءة لاحقا دون الاتصال بالإنترنت\\nلا استهلاك بينات الخلوي</string>
+    <string name="failed_send">فشل فى الإرسال، يرجى إعادة المحاولة</string>
+    <string name="failed_download">فشل فى التحميل، يرجى إعادة المحاولة</string>
+    <string name="share_download_tip">قم بتحميل تطيبق MORE الآن. توفر لك بيانات الخلوي والمال</string>
+    <string name="offline">غير متصل</string>
+    <string name="add_public_comment">إضافة تعليق…</string>
+    <string name="change_back_to_previous_language">يرجي العوده لتغيير البلد واللغه كما فى السابق لقراءة هذه الرسالة.</string>
+    <string name="news">أخبار</string>
+    <string name="vote">صوت</string>
+    <string name="voted">تم التصويت</string>
+    <string name="view_more">عرض المزيد</string>
+    <string name="uncertain">غير مؤكد</string>
+    <string name="timeline">الجدول الزمنى</string>
+    <string name="timeline_match_no_timeline_yet">لا يوجد جدول زمنى حاليا</string>
+    <string name="timeline_matches_end">نهايه</string>
+    <string name="timeline_matches_halftime">الشوط الاول</string>
+    <string name="timeline_loading_more_schedule_info">جاري تحميل المزيد من الجداول…</string>
+    <string name="subscribed">مشترك</string>
+    <string name="standings">الترتيب</string>
+    <string name="schedule">جدول</string>
+    <string name="results">نتائج</string>
+    <string name="no_recent_standings">لا ترتيب حالياً</string>
+    <string name="no_comments_yet">لا تعليقات بعد</string>
+    <string name="matches">المباريات</string>
+    <string name="matches_for_you">مباريات من أجلك</string>
+    <string name="match_details_share_default">" تحقق من مباراة : %1$s VS %2$s على More.#MORE.BUZZ"</string>
+    <string name="match_subscribed">سوف يتم إبلاغك قبل بدء موعد المباراه و نتيجة المباراه لاحقاً</string>
+    <string name="football_comments">تعليقات (%s)</string>
+    <string name="football_team">فريق</string>
+    <string name="empty_results">لا توجد نتائج حاليه</string>
+    <string name="empty_subscribed">لا توجد مباريات تم الاشتراك بها</string>
+    <string name="empty_matches">"لا مباريات فى الوقت الحالى "</string>
+    <string name="can_not_vote">يمكنك تشجيع فريق واحد فقط خلال المباراه</string>
+    <string name="end">إنهاء</string>
+    <string name="emptu_schedule">لا توجد برامج حاليه</string>
+    <string name="no_comments">"تعليقات "</string>
+    <string name="loading_more">جاري تحميل المزيد</string>
+    <string name="goal">هدف</string>
+    <string name="own_goal">هدف فى مرماه</string>
+    <string name="penalty">ضربة جزاء</string>
+    <string name="penalty_saved">ضربة جزاء ضائعه</string>
+    <string name="assist">تمريره</string>
+    <string name="subscribed_num">نجاح(%s)</string>
+    <string name="latest">آخر الأخبار</string>
+    <string name="hot">أخبار شائعة</string>
+    <string name="head_lines">عناوين رئيسية</string>
+    <string name="pull_to_view_past_matches">سحب لعرض المباريات الماضيه</string>
+
+</resources>

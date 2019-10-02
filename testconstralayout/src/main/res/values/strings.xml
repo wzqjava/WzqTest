@@ -1,0 +1,555 @@
+<resources>
+
+    <string name="app_name" translatable="false">More</string>
+    <string name="facebook_app_id" translatable="false">426198088210355</string>
+    <string name="fb_login_protocol_scheme" translatable="false">fb426198088210355</string>
+    <string name="need_read_phone">AFRICA NEWS requires READ_PHONE_STATE</string>
+    <string name="go_to_settings">go to settings</string>
+    <string name="exit">Exit</string>
+
+    <string name="home">Home</string>
+    <string name="follow">Follow</string>
+    <string name="video">Video</string>
+    <string name="me">me</string>
+    <string name="empty">no data</string>
+    <string name="error">error…retry</string>
+    <string name="loading">Loading…</string>
+    <string name="net_error">no internet</string>
+    <string name="loading_finish">Loading finish</string>
+
+    <string name="pull_down_to_refresh">pull to refresh</string>
+    <string name="release_to_refresh">release to refresh</string>
+    <string name="update_stories">%d stories updated for you</string>
+    <string name="service_error">Oops, out of service</string>
+    <string name="n_new_videos">%d new videos</string>
+
+    <string name="network_error">Network unavailable. Try again later</string>
+    <string name="no_more_stories">Oops, no more stories</string>
+    <string name="channels">Channels</string>
+    <string name="tap_channel">Tap to enter channel</string>
+    <string name="edit">Edit</string>
+    <string name="edit_hint">To reorder, hold down &amp; move</string>
+    <string name="more_channels">More channels</string>
+    <string name="done">Done</string>
+    <string name="reader_mode">Reader Mode</string>
+    <string name="web_mode">Web Mode</string>
+    <string name="write_a_comment">Write a comment…</string>
+    <string name="share_to_my_friend">Share to my friend</string>
+    <string name="offline">Offline</string>
+    <string name="title_name" translatable="false">MORE</string>
+    <string name="refresh_hint">Read up to here, refresh to get new articles</string>
+    <string name="report">Report</string>
+    <string name="not_interested">Not Interested</string>
+    <string name="register_or_login">Register/Log In</string>
+    <string name="register_hint">To comment and save reading history</string>
+    <string name="a" translatable="false">A</string>
+    <string name="cancel">Cancel</string>
+    <string name="install_twitter_first">Please install Twitter first</string>
+
+    <!--account start-->
+    <string name="register_hint2">If you haven’t registered, the number entered below will be your More log-in account.</string>
+    <string name="password_hint">Set Password</string>
+    <string name="reset_password">Reset Password</string>
+    <string name="reset_password_done">Password Reset Succeeded</string>
+    <string name="reset_password2">Reset Password</string>
+    <string name="password_hint2">Make sure it\'s 6&#8211;16 characters long.</string>
+    <string name="password_hint3">Enter Password</string>
+    <string name="password_hint4">Enter the password for %s</string>
+    <string name="password_error">Password cannot be shorter than 6 characters.</string>
+    <string name="password_error2">Password cannot be longer than 16 characters.</string>
+    <string name="password_error3">Password must contain at least one letter and one number.</string>
+    <string name="password_error4">Password can’t contain multiple consecutive numbers.</string>
+    <string name="facebook_error">An error occurred while connecting to Facebook.</string>
+    <string name="thirdpart_error">An error occurred while connecting to %s</string>
+    <string name="register_or_login2">Register/Log In</string>
+    <string name="remain_n_sms">Code sent. You have %d time left to request another one.</string>
+    <string name="verify_mobile">Verify Mobile Number</string>
+    <string name="verify_mobile2">We’ve sent you a 6-digit code to\n %1$s %2$s Change Number</string>
+
+    <string name="send_code2">Send a test SMS&#8230;</string>
+    <string name="send_code3">Please send an SMS to %1$s from %2$s %3$s with the verification code below</string>
+
+    <string name="resend_code">Resend</string>
+    <string name="countdown">Resend %ds</string>
+    <string name="sending_code">Sending your code&#8230;</string>
+
+    <string name="code_wrong">Incorrect code. Please try again.</string>
+    <string name="code_expired">That code has expired. Please check it and try again.</string>
+    <string name="wrong_password">The password is incorrect. Please try again.</string>
+    <string name="wrong">Something went wrong, please try again.</string>
+
+    <string name="code_wrong2">Certificate validation failure</string>
+    <string name="code_wrong3">We have sent you the verification code 3 times within 24 hours. If you didn\'t receive it, please try using your social media to login.</string>
+    <string name="send_sms">Send SMS</string>
+    <string name="sent_sms">I\'ve Sent the SMS</string>
+    <string name="send_sms_again">Send SMS Again</string>
+
+    <string name="mobile_error">Please enter a valid mobile number.</string>
+    <string name="not_registered">The mobile number has not been registered.</string>
+    <string name="change_number">Change Number</string>
+    <string name="auth_toke_type" translatable="false">access_token</string>
+    <string name="username">username</string>
+    <string name="select_region">For a better experience,\nplease select your region</string>
+    <string name="mobile_number">Mobile Number</string>
+    <string name="sign_up">Create Account</string>
+    <string name="log_in">Log In</string>
+    <string name="log_out">Log Out</string>
+    <string name="log_out_hint">Log Out of More?  You may miss important notifications.</string>
+    <string name="sign_up_hint_1">By creating an account, you are agreeing to our  </string>
+    <string name="sign_up_hint_2">Terms of Service  </string>
+    <string name="sign_up_hint_3">  Privacy Policy.</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="find_account">Find Account</string>
+    <string name="find_account2">To reset your password, please confirm your account first.</string>
+    <string name="again">Press once again to exit</string>
+    <string name="next">Next</string>
+    <string name="new_password">New Password</string>
+    <string name="password">Password</string>
+    <string name="ke" translatable="false">Kenya</string>
+    <string name="ng" translatable="false">Nigeria</string>
+    <string name="changing_region">Changing</string>
+    <string name="hide">Hide</string>
+    <string name="show">Show</string>
+    <string name="no_connectivity">Please check your internet connection and try again.</string>
+    <string name="line_busy">Line busy. Please try later.</string>
+    <string name="deposit_no_connectivity">No internet connection, try again.</string>
+    <string name="token_expired">Your session has timed out. Please try again.</string>
+    <string name="already_registered">The mobile number has already been registered.</string>
+    <string name="account_frozen">You\'re Temporarily Locked</string>
+    <string name="proceed">Continue</string>
+    <string name="ok">OK</string>
+    <string name="comeon">CONTINUE</string>
+    <string name="facebook_login">Log In with Facebook</string>
+    <string name="reg_or_login">Register/Login</string>
+    <string name="or">or</string>
+    <string name="same_passwd_error">New Password cannot be same as Old Password.</string>
+    <string name="password_hint5">Verify Your Identity</string>
+    <string name="password_hint6">Before accessing sensitive info, you need to verify your identity by entering old password.</string>
+    <string name="succeeded">Succeeded</string>
+    <string name="password_hint7">Old Password is required.</string>
+    <string name="password_hint8">The password is incorrect. Please try again.</string>
+    <string name="call_1">Free Call for Verify</string>
+    <string name="call_2">Please call us with the number you registered with.</string>
+    <string name="dial">Dial</string>
+    <string name="opps">Opps</string>
+    <string name="no_call">Seems that you haven\'t dialed the number yet, would you like to cancel dialling？</string>
+    <string name="no_code">Didn\'t receive the code?</string>
+    <string name="dialed">I\'ve Dialed the Number</string>
+    <string name="dial_1">To complete this Transaction</string>
+    <string name="dial_2">PLEASE DIAL</string>
+    <string name="dial_3">Then Send Your Transaction Reference</string>
+    <string name="dial_exit">If you have finished dialling, you can either go to Transactions to check details, or wait a bit longer for the results.</string>
+
+
+    <string name="old_password">Old Password</string>
+    <string name="try_again">Try Again</string>
+    <string name="call">Call Instead</string>
+    <string name="timeout">Session Timeout</string>
+
+    <string name="mobile_hint">Add Mobile Number</string>
+    <string name="mobile_hint2">Adding your mobile number helps you easily deposit / withdraw your money</string>
+    <string name="ng_mobile_prefix" translatable="false">+234</string>
+    <string name="kenya" translatable="false">Kenya</string>
+    <string name="nigeria" translatable="false">Nigeria</string>
+    <string name="ghana" translatable="false">Ghana</string>
+
+    <string name="login">Register/Log In</string>
+    <string name="login2">Log In</string>
+    <string name="already_completed">Already Completed?</string>
+    <string name="already_h">Already have an account? Log In</string>
+    <string name="create_new">Create New Account</string>
+    <string name="verify_account">Verify Account</string>
+    <string name="change">Change</string>
+    <!--account end-->
+
+    <string name="skip">Skip</string>
+    <string name="you_need_a_more_account_to_communicate_with_others">You need a MORE account to \n communicate with others</string>
+    <string name="login_with_your_social_media">login with your social media</string>
+    <string name="we_will_never_post_anything_without_your_permission">We\'ll never post anything without your permission</string>
+    <string name="join_with_mobile_number">Join with Mobile Number</string>
+    <string name="already_have_an_account">Already have an account?</string>
+    <string name="log_in_with_dot">Log In.</string>
+    <string name="create_an_account_with_your_mobile_number">Create an account with your mobile number</string>
+    <string name="you_ll_need_a_password">You’ll need a password</string>
+    <!--guide end-->
+
+    <string name="retry">Retry</string>
+    <string name="check_connection_try">Please check your internet connection and try again.</string>
+    <string name="failed_load_data">Failed to load data. An error occurred while connecting to server.</string>
+
+    <string name="replay">Replay</string>
+    <string name="share_to">Share to</string>
+    <string name="video_tag_key" translatable="false">videoUrlTagKey</string>
+    <string name="save_data_mode">Save Data Mode</string>
+    <string name="save_data_hint">Images are not automatically loaded to reduce data consumption</string>
+    <string name="message">Message</string>
+    <string name="saved">Saved</string>
+    <string name="feedback">Feedback</string>
+    <string name="we_sent_you_a_code">We sent you a code</string>
+    <string name="code_sent">Code sent</string>
+    <string name="registration_successful">Registration Successful</string>
+    <string name="enter_it_blow_to_verify_number">Enter it blow to verify %1$s %2$s</string>
+    <string name="you_have_d_left_to_request_another_one">You have %d left to request another one</string>
+    <string name="save_error">Failed to Save Nickname</string>
+    <string name="pls_enter_nickname">Please enter a nickname</string>
+    <string name="nickname_was_taken">Nickname was taken, please try another one.</string>
+    <string name="nickname_saved">Nickname saved</string>
+    <string name="set_nick_name">Set Nickname</string>
+    <string name="set_nick_desc">Give yourself a cool nickname to start the conversation.</string>
+    <string name="set_nick_hint">up to 15 characters</string>
+    <string name="nick_save">Save</string>
+    <string name="nickname_later">You can set nickname in your account</string>
+    <string name="default_over_limit_desc">We can only send you a verification code 3 times within 24 hours . If you didn\'t received it， please try using your social media to login.</string>
+
+
+    <string name="change_avatar">Change Avatar</string>
+    <string name="nick_name">Nickname</string>
+    <string name="path_nick_name" translatable="false">nickname</string>
+    <string name="avatar_gallery">Avatar Gallery</string>
+    <string name="avatar_saved">Avatar Saved</string>
+    <string name="nickname_taken">This nickname was taken, please try another one</string>
+    <string name="avatar_failed">Failed to Upload Avatar</string>
+    <string name="save_nick">Nickname Saved</string>
+    <string name="first_name">First Name</string>
+    <string name="date_birth">Date of Birth</string>
+    <string name="gender">Gender</string>
+    <string name="setting">Settings</string>
+    <string name="email">Email</string>
+    <string name="change_passwd">Change Password</string>
+    <string name="last_name">Last Name</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="save">Save</string>
+    <string name="saving">Saving…</string>
+    <string name="invalid_email_address">Please enter a valid Email Address.</string>
+    <string name="female">Female</string>
+    <string name="male">Male</string>
+    <string name="path_first_name" translatable="false">firstName</string>
+    <string name="add_email_address">Add your email address</string>
+    <string name="path_last_name" translatable="false">lastName</string>
+    <string name="path_email" translatable="false">email</string>
+    <string name="email_address">Email Address</string>
+    <string name="verify">Verify</string>
+    <string name="submitting_more">Submitting&#8230;</string>
+    <string name="nickname_failed">Failed to Save Nickname</string>
+    <string name="failed_load_gallery">Failed to Load Gallery</string>
+    <string name="withdraw_error3">Sorry，something went wrong. Please try again later.</string>
+    <string name="date_birth_tip">You must be at least 18 years old</string>
+    <string name="no_internet">No internet connection, try again.</string>
+    <string name="network_failed">Sorry, something went wrong.</string>
+    <string name="reload">Reload</string>
+    <string name="verified_email">Verified Email:</string>
+
+    <string name="push_notification">Push Notifications</string>
+    <string name="clear_cache">Clear Cache</string>
+    <string name="cache_cleared">Caches cleared</string>
+    <string name="change_password">Change Password</string>
+    <string name="may_miss_important_notices">You may miss some very important notices</string>
+    <string name="turn_on_this_save_data">Turn on this to save data</string>
+    <string name="clear_all_cache">Clear all caches?</string>
+
+    <string name="save_for_later">Save for later</string>
+    <string name="remove_from_saved">Remove from saved stories</string>
+    <string name="copy_link">Copy Link</string>
+    <string name="removed">Removed</string>
+    <string name="story_saved">Story Saved</string>
+    <string name="can_read_stories_saved_offline">You can read the stories saved in \"Offline\" at any time without an internet connection.</string>
+    <string name="copied">Copied</string>
+    <string name="show_less_like_this">Show me less content like this</string>
+    <string name="hide_all_from_this_author">Hide all  posts from this author</string>
+    <string name="obsolete_content">Obsolete content</string>
+    <string name="sexual_content">Sexual content</string>
+    <string name="violent_content">Violent, threatening content</string>
+    <string name="fake_news">Fake news</string>
+    <string name="ad_or_spam">Ad or spam</string>
+    <string name="clickbait">Clickbait</string>
+    <string name="media_wont_load">Media won\'t load</string>
+    <string name="other">Other</string>
+    <string name="send">Send</string>
+    <string name="write_yours">Write your…</string>
+    <string name="thanks_report_check_it">Thanks for your report, we will check it</string>
+    <string name="thank_you_for_reporting">Thank you for reporting</string>
+    <string name="will_see_less_content">You will see less such content</string>
+    <string name="add_public_reply">Add a Public Reply</string>
+    <string name="add_public_comment">Add a Public Comment</string>
+    <string name="login_to_check_saved_content">Please Log In to see your saved contents.</string>
+
+    <string name="today">Today</string>
+    <string name="live">Live</string>
+    <string name="result">Result</string>
+    <string name="official_account">Official</string>
+    <string name="reply_sign">replied to your comment:</string>
+    <string name="like_sign">liked your comment:</string>
+    <string name="no_more_info">No more info</string>
+    <string name="failed">failed</string>
+    <string name="network_error_hint">Please check your internet connection and try again.</string>
+    <string name="no_messages">no message</string>
+    <string name="notification">Notification</string>
+    <string name="replies">Replies</string>
+    <string name="reply_hint">Notify me when people reply to my comments</string>
+    <string name="likes">Likes</string>
+    <string name="like_hint">Notify me when people like my comments</string>
+    <string name="view_in_web_mode">View in Web Mode</string>
+    <string name="all_comments">All Comments</string>
+    <string name="reply">Reply</string>
+    <string name="no_more_comments">No More Info</string>
+    <string name="load_failed">Loading Failed.Tap to reload.</string>
+    <string name="view_replies_prefix">View %s replies</string>
+    <string name="hot_comments">Hot Comments</string>
+    <string name="offline_reading_settings">Offline Reading Settings</string>
+    <string name="choose_channels_to_download">Choose channels to download</string>
+    <string name="articles_per_channel">Articles per channel</string>
+    <string name="start_download">Start Download</string>
+    <string name="articles_about_kb_data">%d articles, about %s data</string>
+    <string name="no_channel_toast">Please choose at least one channel</string>
+    <string name="tap_to_update">Tap to update</string>
+    <string name="view_more_channels">view more channels</string>
+    <string name="offline_download_tips">Download now\nRead it later without network\nNo data consumption</string>
+    <string name="offline_reading">Offline Reading</string>
+    <string name="hide_channels">hide channels</string>
+    <string name="reply_to_prefix">Reply to %s</string>
+    <string name="empty_comment">Please write a comment</string>
+    <string name="succeed_sent">Sent</string>
+    <string name="failed_send">Failed to send, please try again</string>
+    <string name="write_comment">Comments</string>
+    <string name="view_all_articles_prefix">View all articles(%d)</string>
+    <string name="downloading_articles_prefix">Downloading articles (%1d/%2d) …</string>
+    <string name="successfully_downloaded_prefix">%d articles downloaded</string>
+    <string name="no_replies_available">No Replies Available</string>
+    <string name="reply_to_this_comment">Reply to this comment&#8230;</string>
+    <string name="to_nickname_prefix">reply to %s:</string>
+    <string name="recent_comments">Recent Comments</string>
+    <string name="official">official</string>
+    <string name="no_comments_available">no comments available</string>
+    <string name="failed_download">Failed to download, try again</string>
+
+    <string name="select_all">Select All</string>
+    <string name="delete_cnt">Delete (%d)</string>
+    <string name="delete">Delete</string>
+    <string name="no_content_selected">No content selected</string>
+    <string name="cnt_delete_successfully">%d deleted successfully</string>
+
+    <string name="reader_dialog_title">Fonts can not be customized in WebMode, Please return to Reader Mode .</string>
+    <string name="reader_dialog_switch_to_reader_mode">switch to reader mode</string>
+    <string name="reader_dialog_cancel">cancel</string>
+    <string name="confirm">Confirm</string>
+    <string name="recommended_read">Recommended Read</string>
+    <string name="related_stories">Related Stories</string>
+    <string name="like">Like</string>
+    <string name="downloa_new_articles">Download new articles</string>
+    <string name="d_ago_suffix">%d d ago</string>
+    <string name="h_ago_suffix">%d h ago</string>
+    <string name="min_ago_suffix">%d min ago</string>
+    <string name="just_now">just now</string>
+    <string name="temp_user">MoreUser</string>
+    <string name="clear_offline_tip">Are you sure you want to delete all articles?</string>
+    <string name="updated_1_d_ago">Updated 1 d ago</string>
+    <string name="updated_h_prefix_ago">Updated %d h ago</string>
+    <string name="updated_min_prefix_ago">Updated %d min ago</string>
+    <string name="just_updated">Just updated</string>
+    <string name="no_replies">No Replies</string>
+    <string name="reply_num">%d Replies</string>
+    <string name="single_reply">1 Reply</string>
+    <string name="share_download_tip">Download MORE App now. Start saving your data bundle and cash!</string>
+    <string name="all_replies">All Replies</string>
+    <string name="refresh">Refresh</string>
+    <string name="me_line">Me:\n</string>
+    <string name="no_more_comments_line">- No more comments -</string>
+    <string name="loading_more_comments">Loading more comments</string>
+    <string name="loading_more_news">Loading MORE news…</string>
+    <string name="loading_more">Loading More</string>
+    <string name="login_successful">Login successful</string>
+    <string name="change_nick_name_tips">You can change your Nickname at any time.\n  1. Click the avatar at top left coner of Homepage \n 2. Click Edit profile\n</string>
+    <string name="and">and</string>
+    <string name="tell_us_more">Tell us more</string>
+    <string name="twitter" translatable="false">Twitter</string>
+    <string name="view_original">View the original article</string>
+    <string name="comment">Comment</string>
+    <string name="notifications">Notifications</string>
+    <string name="update_articles">%d new articles</string>
+    <string name="new_sign">NEW</string>
+    <string name="login_or_reg">Login/Register</string>
+    <string name="no_related_content">No related content</string>
+    <string name="article_wrong">Sorry, something went wrong. Please try again later.</string>
+    <string name="no_reply">No Reply</string>
+    <string name="login_failed">Login Failed</string>
+    <string name="third_login_successful">Login Successful</string>
+    <string name="offline_no_internet">No internet connection. Please try again later.</string>
+    <string name="h_suffix" translatable="false">%dh</string>
+    <string name="min_suffix" translatable="false">%dm</string>
+    <string name="what_do_you_love_reading_about">What Do You Love Reading About ?</string>
+    <string name="select_prefix_to_continue">Select %d to continue</string>
+    <string name="select_continue">Continue</string>
+    <string name="latest_news">Latest News</string>
+    <string name="no_related_try_again">No related content\n Please check other channels</string>
+
+    <!-- 启动崩溃-->
+    <string name="crash_clean_title">Couldn\'t Open "More" </string>
+    <string name="crash_clean_content">There was a problem opening your app, you could get it  fixed by clearing the cached data. </string>
+    <string name="clear">Clear</string>
+
+    <!-- update-->
+    <string name="version">Version</string>
+    <string name="update">Downloading update</string>
+    <string name="check_update">Check update</string>
+    <string name="no_update">No update</string>
+    <string name="force_update">Found new version %s, please update before use the app</string>
+    <string name="no_new_version">No new version</string>
+    <string name="new_version_found">Found new version</string>
+    <string name="checking_update">Checking update</string>
+    <string name="error_fail_to_get_version">Failed to check update info. Please try later.</string>
+    <string name="update_now">Update Now</string>
+
+    <!-- permission-->
+    <string name="permission_name_phone">Phone</string>
+    <string name="permission_name_storage">Storage</string>
+    <string name="message_permission_always_failed">This function won\'t work properly unless you give permissions to MORE to access the following item:\n\n%1$s</string>
+    <string name="message_permission_rationale">To continue, open Settings-Permission, then allow listed item:\n\n%1$s</string>
+    <string name="allow">ALLOW</string>
+    <string name="deny">DENY</string>
+    <string name="downloading">Downloading</string>
+    <string name="disk_space_not_enough">Disk space not enough</string>
+    <string name="allow_to_write_to_storage">Please allow to write to storage first</string>
+    <string name="download_failed">Download failed.</string>
+    <string name="download_completed">Download completed.</string>
+
+
+    <!--follow-->
+    <string name="unfollow">Are you sure you want to unfollow %s?</string>
+    <string name="start_reading">Start Reading</string>
+    <string name="recommended">Recommended</string>
+    <string name="recommended_for_you">Recommended for you</string>
+    <string name="popular_on_more">Popular on More</string>
+    <string name="more">more</string>
+    <string name="browse_categories">Browse Categories</string>
+    <string name="following">Following</string>
+    <string name="explore">Explore</string>
+
+    <string name="following_title">Following Topics</string>
+    <string name="explore_title">Explore Topics</string>
+
+
+    <string name="no_recent_articles">No recent articles</string>
+    <string name="followers">Followers</string>
+    <string name="you_sure_to_unfollow">Are you sure you want to unfollow %s?</string>
+    <string name="no_followings_yet">No followings yet</string>
+    <string name="follow_some_topics">Follow some topics</string>
+    <string name="follow_more_topics">Follow more topics</string>
+    <string name="no_recomended_topics">No recommended topics</string>
+    <string name="my_following">My Following</string>
+    <string name="country_language">Country &amp; Language</string>
+    <string name="select_your_country_amp_language">Select Your Country &amp; Language</string>
+    <string name="add">Add</string>
+    <string name="view_all">View All</string>
+    <string name="recommending">Recommending</string>
+    <string name="follow_label_share_default">Check out %s\'s page on More</string>
+
+    <string name="no_network">No network connection. Please try again later.</string>
+    <string name="click_to_refresh">Click to refresh</string>
+    <string name="related_news">Related News</string>
+
+    <!--国家名字|语言  不需要翻译-->
+    <string name="djibouti" translatable="false">جيبوتي</string>
+    <string name="mauritania" translatable="false">موريتانيا</string>
+    <string name="somalia" translatable="false">الصومال</string>
+    <string name="sudan" translatable="false">السودان</string>
+    <string name="togo" translatable="false">Togo</string>
+    <string name="tchad" translatable="false">Tchad</string>
+    <string name="madagascar" translatable="false">Madagascar</string>
+    <string name="burundi" translatable="false">Burundi</string>
+    <string name="south_sudan" translatable="false">South Sudan</string>
+    <string name="rwanda_francais" translatable="false">Rwanda | Français</string>
+    <string name="rwanda_swahili" translatable="false">Rwanda | Swahili</string>
+    <string name="uea" translatable="false">الامارات</string>
+    <string name="sierra_leone" translatable="false">Sierra Leone</string>
+    <string name="niger" translatable="false">Niger</string>
+    <string name="mali" translatable="false">Mali</string>
+    <string name="tunisia" translatable="false">تونس | العربيّة</string>
+    <string name="tunisia_fr" translatable="false">Tunisie | Français</string>
+    <string name="libya" translatable="false">ليبيا</string>
+    <string name="benin" translatable="false">Bénin</string>
+    <string name="burkina_faso" translatable="false">Burkina Faso</string>
+    <string name="dr_congo" translatable="false">DR Congo | Français</string>
+    <string name="dr_congo_swahili" translatable="false">DR Congo | Swahili</string>
+    <string name="morocco_fr" translatable="false">Maroc | Français</string>
+    <string name="morocco" translatable="false">المغرب | العربية</string>
+    <string name="guinea" translatable="false">GUINEA</string>
+    <string name="zambia" translatable="false">Zambia</string>
+    <string name="senegal" translatable="false">Sénégal</string>
+    <string name="algeria" translatable="false">الجزائر‎</string>
+    <string name="cameroun" translatable="false">Cameroun</string>
+    <string name="cote_divoire" translatable="false">Côte d\'Ivoire</string>
+    <string name="change_back_to_previous_language">Please change back to previous Country &amp; Language to view this message.</string>
+    <string name="ng_english" translatable="false">Nigeria</string>
+    <string name="kenya_english" translatable="false">Kenya | English</string>
+    <string name="kenya_swahili" translatable="false">Kenya | Swahili</string>
+    <string name="ghana_english" translatable="false">Ghana</string>
+    <string name="egypt_arabic" translatable="false">مصر</string>
+    <string name="suadi_arabia" translatable="false">السعودية</string>
+    <string name="south_africa" translatable="false">South Africa</string>
+    <string name="global_english" translatable="false">Global | English</string>
+    <string name="uganda_english" translatable="false">Uganda | English</string>
+    <string name="uganda_swahili" translatable="false">Uganda | Swahili</string>
+    <string name="ethiopia_english" translatable="false">Ethiopia</string>
+    <string name="gambia_english" translatable="false">Gambia</string>
+    <string name="liberia_english" translatable="false">Liberia</string>
+    <string name="malawi_english" translatable="false">Malawi</string>
+    <string name="sierra_leone_english" translatable="false">Sierra Leone | English</string>
+    <string name="south_sudan_english" translatable="false">South Sudan | English</string>
+    <string name="tanzania_english" translatable="false">Tanzania | English</string>
+    <string name="tanzania_swahili" translatable="false">Tanzania | Swahili</string>
+    <string name="zambia_english" translatable="false">Zambia | English</string>
+    <string name="zimbabwe_english" translatable="false">Zimbabwe</string>
+
+
+
+
+
+
+
+    <!--足球相关-->
+    <string name="schedule">Schedule</string>
+    <string name="results">Results</string>
+    <string name="view_more">View more</string>
+    <string name="matches">Matches</string>
+    <string name="news">News</string>
+    <string name="standings">Standings</string>
+    <string name="no_comments">Comments</string>
+    <string name="football_comments">Comments(%s)</string>
+    <string name="timeline">Timeline</string>
+    <string name="football_team">Team</string>
+    <string name="football_gd" translatable="false">GD</string>
+    <string name="football_pl" translatable="false">PL</string>
+    <string name="football_pts" translatable="false">Pts</string>
+    <string name="match_subscribed">you will get a notification before the match begins &amp; the match result.</string>
+
+    <!--足球相关-->
+    <string name="no_recent_standings">no recent standings</string>
+    <string name="timeline_match_no_timeline_yet">No timeline yet</string>
+    <string name="timeline_matches_end">End</string>
+    <string name="timeline_matches_halftime">Halftime</string>
+    <string name="timeline_loading_more_schedule_info">Loading MORE schedule information…</string>
+    <string name="subscribed">Subscribed</string>
+    <string name="subscribed_num">Subscribed(%s)</string>
+    <string name="voted">Voted</string>
+    <string name="vote">Vote</string>
+    <string name="end">End</string>
+    <string name="empty_matches">No matches recently</string>
+    <string name="empty_subscribed">No subscribed matches</string>
+    <string name="emptu_schedule">No recent schedule</string>
+    <string name="empty_results">No recent results</string>
+    <string name="match_details_share_default">Check out the match: %1$s VS %2$s on More.</string>
+    <string name="can_not_vote">You can just support one team in a match</string>
+    <string name="no_comments_yet">No comments yet</string>
+    <string name="matches_for_you">Matches for you</string>
+    <string name="uncertain">Uncertain</string>
+    <string name="goal">Goal</string>
+    <string name="penalty">Penalty</string>
+    <string name="penalty_saved">Penalty Saved</string>
+    <string name="own_goal">Own Goal</string>
+    <string name="assist">Assist</string>
+    <string name="latest">Latest</string>
+    <string name="hot">Hot</string>
+    <string name="head_lines">Headlines</string>
+    <string name="pull_to_view_past_matches">Pull to view past matches</string>
+    <!--国家名字|语言  不需要翻译-->
+</resources>

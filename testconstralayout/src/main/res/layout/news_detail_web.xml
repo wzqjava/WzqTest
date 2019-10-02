@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <com.africa.news.base.BaseWebView
+        android:id="@+id/news_detail_web"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/view_mode_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/myriadpro_regular"
+        android:lineSpacingExtra="0sp"
+        android:text="@string/view_in_web_mode"
+        android:textColor="#9ca0ab"
+        android:textSize="14sp"
+        android:visibility="gone"
+        android:layout_marginStart="20dp"
+        android:layout_marginBottom="20dp"
+        android:textStyle="normal" />
+</LinearLayout>

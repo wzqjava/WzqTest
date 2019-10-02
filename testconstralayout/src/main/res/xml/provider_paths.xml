@@ -1,0 +1,11 @@
+<paths>
+    <external-path
+        name="root"
+        path="." />
+    <external-path
+        name="More_temp.apk"
+        path="Download" />
+    <files-path
+        name="betshare.jpg"
+        path="moreImage" />
+</paths>

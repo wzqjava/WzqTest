@@ -1,0 +1,195 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">#E41827</item>
+        <item name="colorPrimaryDark">#7b0911</item>
+        <item name="colorAccent">#f70032</item>
+        <item name="android:windowBackground">@color/white</item>
+    </style>
+
+
+    <style name="AppTheme.Splash">
+        <item name="android:windowBackground">@drawable/splash</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+<!--    <style name="tab_style" parent="TextAppearance.Design.Tab">-->
+<!--        <item name="textAllCaps">false</item>-->
+<!--        <item name="android:textSize">14sp</item>-->
+<!--        <item name="android:textStyle">bold</item>-->
+<!--    </style>-->
+
+  <style name="tab_style" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="textAllCaps">false</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="ReportDialog" parent="Theme.AppCompat.Dialog">
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+
+    <declare-styleable name="PullToRefreshLayout">
+        <attr name="view_error" format="reference" />
+        <attr name="view_empty" format="reference" />
+        <attr name="view_loading" format="reference" />
+    </declare-styleable>
+    <declare-styleable name="ShadowLayout">
+        <attr name="sl_cornerRadius" format="dimension" />
+        <attr name="sl_shadowRadius" format="dimension" />
+        <attr name="sl_shadowColor" format="color" />
+        <attr name="sl_dx" format="dimension" />
+        <attr name="sl_dy" format="dimension" />
+    </declare-styleable>
+
+    <!--底部弹框-->
+    <style name="BottomDialog" parent="@style/AppTheme">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+
+
+    <style name="AnimBottom" parent="@android:style/Animation">
+        <item name="android:windowEnterAnimation">@anim/push_bottom_in</item>
+        <item name="android:windowExitAnimation">@anim/push_bottom_out</item>
+    </style>
+
+    <style name="KeyAnimBottom" parent="@android:style/Animation">
+        <item name="android:windowEnterAnimation">@anim/keyboard_bottom_in</item>
+        <item name="android:windowExitAnimation">@anim/keyboard_bottom_out</item>
+    </style>
+
+    <style name="ShowTipsAnimation" parent="android:Animation">
+        <item name="android:windowEnterAnimation">@anim/show_tips_animation_in</item>
+        <item name="android:windowExitAnimation">@anim/show_tips_animation_out</item>
+    </style>
+
+    <style name="ErrorTextView">
+        <item name="android:textColor">#ca203a</item>
+        <item name="android:textSize">10sp</item>
+        <item name="android:visibility">gone</item>
+    </style>
+
+    <style name="AppTheme.CustomTranslucent">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowAnimationStyle">@style/AnimBottom</item>
+    </style>
+
+    <style name="MyEditText">
+        <item name="colorControlNormal">@color/blue_grey</item>
+        <item name="colorControlActivated">@color/pink</item>
+    </style>
+
+    <declare-styleable name="Emojicon">
+        <attr name="emojiconSize" format="dimension" />
+        <attr name="emojiconTextStart" format="integer" />
+        <attr name="emojiconTextLength" format="integer" />
+        <attr name="emojiconUseSystemDefault" format="boolean" />
+    </declare-styleable>
+
+    <style name="FullscreenTheme" parent="AppTheme">
+        <item name="android:actionBarStyle">@style/FullscreenActionBarStyle</item>
+        <item name="android:windowActionBarOverlay">true</item>
+        <item name="android:windowBackground">@null</item>
+        <item name="metaButtonBarStyle">?android:attr/buttonBarStyle</item>
+        <item name="metaButtonBarButtonStyle">?android:attr/buttonBarButtonStyle</item>
+    </style>
+
+    <style name="FullscreenActionBarStyle" parent="Widget.AppCompat.ActionBar">
+        <item name="android:background">@color/black_overlay</item>
+    </style>
+
+    <!--透明-->
+    <style name="TranslucentTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowActionBarOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@null</item>
+    </style>
+    <!--半透明-->
+    <style name="HalfTranslucentTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowBackground">@color/trans_overlay</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowActionBarOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@null</item>
+    </style>
+
+    <style name="permission_PermissionActivity" parent="AppTheme">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+
+    <style name="comment_dialog" parent="@android:style/Theme.Dialog">
+
+        <item name="android:padding">0dp</item>
+        <item name="android:windowFrame">@null</item>
+        <!-- 设置是否可滑动 -->
+        <!--<item name="android:windowIsFloating">true</item>-->
+        <!-- 设置是否透明 -->
+        <item name="android:windowIsTranslucent">true</item>
+        <!-- 无标题 -->
+        <item name="android:windowNoTitle">true</item>
+        <!-- 背景 -->
+        <item name="android:background">@null</item>
+        <!-- 窗口背景 -->
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <!-- 是否变暗 -->
+        <item name="android:backgroundDimEnabled">true</item>
+        <!--&lt;!&ndash; 点击空白部分activity不消失 &ndash;&gt;-->
+        <!--<item name="android:windowCloseOnTouchOutside">true</item>-->
+    </style>
+
+    <style name="setting_switch" parent="Widget.AppCompat.CompoundButton.Switch">
+        <item name="android:switchMinWidth">48dp</item>
+        <item name="android:checked">false</item>
+        <item name="android:background">@null</item>
+        <item name="android:thumb">@drawable/thumb_selector</item>
+        <item name="android:track">@drawable/track_selector</item>
+    </style>
+
+    <style name="pic_mode_switch" parent="Widget.AppCompat.CompoundButton.Switch">
+        <item name="android:switchMinWidth">36dp</item>
+        <item name="android:checked">false</item>
+        <item name="android:background">@color/white</item>
+        <item name="android:thumb">@drawable/pic_mode_thumb_selector</item>
+        <item name="android:track">@drawable/pic_mode_track_selector</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.RedAccent">
+        <item name="colorAccent">#f70032</item>
+    </style>
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+
+    <style name="FontStyleNormal">
+        <item name="android:fontFamily">@font/myriadpro_regular</item>
+    </style>
+    <style name="FontStyleMedium">
+        <item name="android:fontFamily">@font/myriadpro_semibold</item>
+    </style>
+    <style name="FontStyleBold">
+        <item name="android:fontFamily">@font/myriadpro_bold</item>
+    </style>
+
+
+</resources>

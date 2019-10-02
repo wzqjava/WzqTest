@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="PullRefreshLayout">
+        <attr name="prl_refreshEnable" format="boolean" />
+        <attr name="prl_loadMoreEnable" format="boolean" />
+        <attr name="prl_twinkEnable" format="boolean" />
+        <attr name="prl_autoLoadingEnable" format="boolean" />
+        <attr name="prl_headerFront" format="boolean" />
+        <attr name="prl_footerFront" format="boolean" />
+
+        <attr name="prl_refreshTriggerDistance" format="dimension" />
+        <attr name="prl_loadTriggerDistance" format="dimension" />
+        <attr name="prl_pullDownMaxDistance" format="dimension" />
+        <attr name="prl_pullUpMaxDistance" format="dimension" />
+        <attr name="prl_topOverScrollMaxTriggerOffset" format="dimension" />
+        <attr name="prl_downOverScrollMaxTriggerOffset" format="dimension" />
+
+        <attr name="prl_resetAnimationDuring" format="integer" />
+        <attr name="prl_refreshAnimationDuring" format="integer" />
+        <attr name="prl_overScrollMinDuring" format="integer" />
+
+        <attr name="prl_dragDampingRatio" format="float" />
+        <attr name="prl_overScrollDampingRatio" format="float" />
+        <attr name="prl_overScrollAdjustValue" format="float" />
+
+        <attr name="prl_targetId" format="reference" />
+
+        <attr name="prl_headerViewId" format="reference" />
+        <attr name="prl_footerViewId" format="reference" />
+
+        <attr name="prl_headerShowGravity" format="enum">
+            <enum name="follow" value="0" />
+            <enum name="follow_placeholder" value="1" />
+            <enum name="follow_center" value="2" />
+            <enum name="placeholder" value="3" />
+            <enum name="placeholder_follow" value="4" />
+            <enum name="placeholder_center" value="5" />
+            <enum name="center" value="6" />
+            <enum name="center_follow" value="7" />
+        </attr>
+
+        <attr name="prl_footerShowGravity" format="enum">
+            <enum name="follow" value="0" />
+            <enum name="follow_placeholder" value="1" />
+            <enum name="follow_center" value="2" />
+            <enum name="placeholder" value="3" />
+            <enum name="placeholder_follow" value="4" />
+            <enum name="placeholder_center" value="5" />
+            <enum name="center" value="6" />
+            <enum name="center_follow" value="7" />
+        </attr>
+    </declare-styleable>
+    <declare-styleable name="SmsInputView">
+        <attr name="box_count" format="integer" />
+        <attr name="box_color" format="color" />
+        <attr name="box_color_fill" format="color" />
+        <attr name="text_color" format="color" />
+        <attr name="radius" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="listRowView">
+        <attr name="leftText" format="string" />
+    </declare-styleable>
+
+    <declare-styleable name="LoadingView">
+        <attr name="enable_hint_img" format="boolean" />
+        <attr name="hint_desc_txt_size" format="dimension" />
+        <attr name="hint_desc_txt_color" format="color" />
+        <attr name="hint_btn_bg" format="reference" />
+        <attr name="hint_btn_txt_size" format="dimension" />
+        <attr name="hint_btn_txt_color" format="color" />
+        <attr name="hint_btn_txt_visible" format="boolean"/>
+        <attr name="load_progress_color" format="color" />
+        <attr name="load_hint_txt_size" format="dimension" />
+        <attr name="load_hint_txt_color" format="color" />
+    </declare-styleable>
+
+    <attr name="circle_image_type">
+        <enum name="circle" value="0" />
+        <enum name="round" value="1" />
+    </attr>
+
+    <!-- card 中的follow-->
+    <declare-styleable name="FollowButton">
+        <attr name="text_size" format="dimension|reference"/>
+        <attr name="drawable_margin" format="dimension|reference"/>
+        <attr name="isFootball" format="boolean"/>
+        <attr name="isLabel" format="boolean"/>
+    </declare-styleable>
+
+    <declare-styleable name="common_list_view">
+        <attr name="leftImgRes" format="reference" />
+        <attr name="rightImgRes" format="reference" />
+        <attr name="contentTextRes" format="reference" />
+        <attr name="leftImg_size" format="dimension" />
+
+    </declare-styleable>
+
+    <declare-styleable name="SlidingTabLayout">
+        <attr name="tl_indicator_color" format="color" />
+        <attr name="tl_indicator_height" format="dimension" />
+        <attr name="tl_title_selected_color" format="color" />
+        <attr name="tl_title_unselected_color" format="color" />
+        <attr name="tl_title_text_size" format="dimension" />
+        <attr name="tl_indicator_margin" format="dimension" />
+        <attr name="tl_indicator_corner_radius" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="SwipeBackLayout">
+        <attr name="swipeBackFactor" format="float"></attr>
+        <attr name="maskAlpha" format="integer"></attr>
+        <attr name="isSwipeFromEdge" format="boolean"></attr>
+        <attr name="directionMode">
+            <enum name="left" value="1" />
+            <enum name="right" value="2" />
+            <enum name="top" value="4" />
+            <enum name="bottom" value="8" />
+        </attr>
+    </declare-styleable>
+
+    <!-- 支持每个角的圆角单独设置 -->
+    <declare-styleable name="NiceImageView">
+        <attr name="is_circle" format="boolean" />
+        <attr name="is_cover_src" format="boolean" />
+        <attr name="corner_radius" format="dimension" />
+        <attr name="corner_top_left_radius" format="dimension" />
+        <attr name="corner_top_right_radius" format="dimension" />
+        <attr name="corner_bottom_left_radius" format="dimension" />
+        <attr name="corner_bottom_right_radius" format="dimension" />
+        <attr name="border_width_nice" format="dimension" />
+        <attr name="border_color_nice" format="color" />
+        <attr name="inner_border_width" format="dimension" />
+        <attr name="inner_border_color" format="color" />
+        <attr name="mask_color" format="color" />
+    </declare-styleable>
+
+
+    <declare-styleable name="CircleImageView">
+        <attr name="border_width" format="dimension" />
+        <attr name="border_color" format="color" />
+        <attr name="circle_image_type" />
+        <attr name="img_corner_radius" format="dimension" />
+    </declare-styleable>
+    <declare-styleable name="LoadingImage">
+        <attr name="li_shaderColor" format="color"/>
+    </declare-styleable>
+
+</resources>

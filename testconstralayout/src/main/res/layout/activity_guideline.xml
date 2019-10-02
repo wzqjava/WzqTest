@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="186dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="20dp"
+        style="@style/FontStyleNormal"
+        android:lineSpacingExtra="4sp"
+        android:text="@string/what_do_you_love_reading_about"
+        android:textColor="@color/dark"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/skip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="10dp"
+        style="@style/FontStyleNormal"
+        android:gravity="center_horizontal"
+        android:padding="10dp"
+        android:text="@string/skip"
+        android:textColor="@color/dark"
+        android:textSize="12sp"
+        android:textStyle="normal" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycler"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/title"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="18dp"
+        android:layout_marginEnd="12dp" />
+
+    <TextView
+        android:id="@+id/select_btn"
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:layout_alignParentBottom="true"
+        android:background="#f2f3f5"
+        style="@style/FontStyleNormal"
+        android:gravity="center"
+        android:lineSpacingExtra="0sp"
+        android:textColor="#9ca0ab"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+</RelativeLayout>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="tip_size">32dp</dimen>
+    <dimen name="default_corner_radius">4dp</dimen>
+    <dimen name="default_shadow_radius">4dp</dimen>
+    <dimen name="news_name_width">130dp</dimen>
+    <dimen name="news_pic_width">106dp</dimen>
+    <dimen name="news_pic_height">82dp</dimen>
+    <dimen name="news_one_pic_name_max_width">26dp</dimen>
+    <dimen name="design_bottom_navigation_active_text_size">9sp</dimen>
+    <dimen name="design_bottom_navigation_text_size">9sp</dimen>
+    <dimen name="design_bottom_navigation_margin">12dp</dimen>
+    <dimen name="app_bar_height">200dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="text_margin">16dp</dimen>
+    <dimen name="status_bar_height">24dp</dimen>
+    <dimen name="title_bar_height">56dp</dimen>
+
+
+
+</resources>
