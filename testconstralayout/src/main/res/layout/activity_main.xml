@@ -97,7 +97,6 @@
         </android.support.design.widget.BottomNavigationView>
     </RelativeLayout>
 
-    <include layout="@layout/main_drawer" />
 
 
 </android.support.v4.widget.DrawerLayout>
