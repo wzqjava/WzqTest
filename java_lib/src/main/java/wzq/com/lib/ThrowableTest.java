@@ -5,10 +5,4 @@ package wzq.com.lib;
  */
 public class ThrowableTest {
 
-
-
-
-
-
-
 }
