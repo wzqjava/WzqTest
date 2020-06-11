@@ -10,8 +10,11 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/01_viewclick" />
+            <option value="$PROJECT_DIR$/02_combineview" />
             <option value="$PROJECT_DIR$/05AutoAttribute" />
             <option value="$PROJECT_DIR$/06MyScrollView" />
+            <option value="$PROJECT_DIR$/AutoOpenDD" />
             <option value="$PROJECT_DIR$/BotomNavigation" />
             <option value="$PROJECT_DIR$/CursorAdapter" />
             <option value="$PROJECT_DIR$/EventBus_demo" />
