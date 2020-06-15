@@ -13,25 +13,25 @@ object MList {
         list.add("Hello")
         list.add("World")
         list.add("HAHAHAHA")
-        //ç¬¬ä¸€ç§éå†æ–¹æ³•ä½¿ç”¨foreachéå†List
-        for (str in list) {            //ä¹Ÿå¯ä»¥æ”¹å†™for(int i=0;i<list.size();i++)è¿™ç§å½¢å¼
+        //µÚÒ»ÖÖ±éÀú·½·¨Ê¹ÓÃforeach±éÀúList
+        for (str in list) {            //Ò²¿ÉÒÔ¸ÄĞ´for(int i=0;i<list.size();i++)ÕâÖÖĞÎÊ½
             println(str)
         }
 
-        //ç¬¬äºŒç§éå†ï¼ŒæŠŠé“¾è¡¨å˜ä¸ºæ•°ç»„ç›¸å…³çš„å†…å®¹è¿›è¡Œéå†
+        //µÚ¶şÖÖ±éÀú£¬°ÑÁ´±í±äÎªÊı×éÏà¹ØµÄÄÚÈİ½øĞĞ±éÀú
         val strArray = arrayOfNulls<String>(list.size)
         list.toTypedArray()
         for (i in strArray.indices)
-        //è¿™é‡Œä¹Ÿå¯ä»¥æ”¹å†™ä¸º  foreach(String str:strArray)è¿™ç§å½¢å¼
+        //ÕâÀïÒ²¿ÉÒÔ¸ÄĞ´Îª  foreach(String str:strArray)ÕâÖÖĞÎÊ½
         {
             println(strArray[i])
         }
 
-        //ç¬¬ä¸‰ç§éå† ä½¿ç”¨è¿­ä»£å™¨è¿›è¡Œç›¸å…³éå†
+        //µÚÈıÖÖ±éÀú Ê¹ÓÃµü´úÆ÷½øĞĞÏà¹Ø±éÀú
 
         val ite = list.iterator()
         while (ite.hasNext())
-        //åˆ¤æ–­ä¸‹ä¸€ä¸ªå…ƒç´ ä¹‹åæœ‰å€¼
+        //ÅĞ¶ÏÏÂÒ»¸öÔªËØÖ®ºóÓĞÖµ
         {
             println(ite.next())
         }

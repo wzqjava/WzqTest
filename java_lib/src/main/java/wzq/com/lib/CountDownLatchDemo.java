@@ -1,29 +1,24 @@
 package wzq.com.lib;
 
-import java.util.concurrent.CountDownLatch;
-
 /**
  * https://www.cnblogs.com/dolphin0520/p/3920397.html
- * 1ï¼‰CountDownLatchå’ŒCyclicBarrieréƒ½èƒ½å¤Ÿå®ç°çº¿ç¨‹ä¹‹é—´çš„ç­‰å¾…ï¼Œåªä¸è¿‡å®ƒä»¬ä¾§é‡ç‚¹ä¸åŒï¼š
- *
- * ã€€ã€€ã€€ã€€CountDownLatchä¸€èˆ¬ç”¨äºæŸä¸ªçº¿ç¨‹Aç­‰å¾…è‹¥å¹²ä¸ªå…¶ä»–çº¿ç¨‹æ‰§è¡Œå®Œä»»åŠ¡ä¹‹åï¼Œå®ƒæ‰æ‰§è¡Œï¼›
- *
- * ã€€ã€€ã€€ã€€è€ŒCyclicBarrierä¸€èˆ¬ç”¨äºä¸€ç»„çº¿ç¨‹äº’ç›¸ç­‰å¾…è‡³æŸä¸ªçŠ¶æ€ï¼Œç„¶åè¿™ä¸€ç»„çº¿ç¨‹å†åŒæ—¶æ‰§è¡Œï¼›
- *
- * ã€€ã€€ã€€ã€€å¦å¤–ï¼ŒCountDownLatchæ˜¯ä¸èƒ½å¤Ÿé‡ç”¨çš„ï¼Œè€ŒCyclicBarrieræ˜¯å¯ä»¥é‡ç”¨çš„ã€‚
- *
- * ã€€ã€€2ï¼‰Semaphoreå…¶å®å’Œé”æœ‰ç‚¹ç±»ä¼¼ï¼Œå®ƒä¸€èˆ¬ç”¨äºæ§åˆ¶å¯¹æŸç»„èµ„æºçš„è®¿é—®æƒé™ã€‚
+ * 1£©CountDownLatchºÍCyclicBarrier¶¼ÄÜ¹»ÊµÏÖÏß³ÌÖ®¼äµÄµÈ´ı£¬Ö»²»¹ıËüÃÇ²àÖØµã²»Í¬£º
+ * CountDownLatchÒ»°ãÓÃÓÚÄ³¸öÏß³ÌAµÈ´ıÈô¸É¸öÆäËûÏß³ÌÖ´ĞĞÍêÈÎÎñÖ®ºó£¬Ëü²ÅÖ´ĞĞ£»
+ * ¶øCyclicBarrierÒ»°ãÓÃÓÚÒ»×éÏß³Ì»¥ÏàµÈ´ıÖÁÄ³¸ö×´Ì¬£¬È»ºóÕâÒ»×éÏß³ÌÔÙÍ¬Ê±Ö´ĞĞ£»
+ * ÁíÍâ£¬CountDownLatchÊÇ²»ÄÜ¹»ÖØÓÃµÄ£¬¶øCyclicBarrierÊÇ¿ÉÒÔÖØÓÃµÄ¡£
+ * SemaphoreÆäÊµºÍËøÓĞµãÀàËÆ£¬ËüÒ»°ãÓÃÓÚ¿ØÖÆ¶ÔÄ³×é×ÊÔ´µÄ·ÃÎÊÈ¨ÏŞ¡£
  */
 public class CountDownLatchDemo {
-     public static void main(String[] args) {
-         final CountDownLatch latch = new CountDownLatch(2);
+
+    public static void main(String[] args) {
+         /*final CountDownLatch latch = new CountDownLatch(2);
 
          new Thread(){
              public void run() {
                  try {
-                     System.out.println("å­çº¿ç¨‹"+Thread.currentThread().getName()+"æ­£åœ¨æ‰§è¡Œ");
+                     System.out.println("×ÓÏß³Ì"+Thread.currentThread().getName()+"ÕıÔÚÖ´ĞĞ");
                      Thread.sleep(3000);
-                     System.out.println("å­çº¿ç¨‹"+Thread.currentThread().getName()+"æ‰§è¡Œå®Œæ¯•");
+                     System.out.println("×ÓÏß³Ì"+Thread.currentThread().getName()+"Ö´ĞĞÍê±Ï");
                      latch.countDown();
                  } catch (InterruptedException e) {
                      e.printStackTrace();
@@ -34,9 +29,9 @@ public class CountDownLatchDemo {
          new Thread(){
              public void run() {
                  try {
-                     System.out.println("å­çº¿ç¨‹"+Thread.currentThread().getName()+"æ­£åœ¨æ‰§è¡Œ");
+                     System.out.println("×ÓÏß³Ì"+Thread.currentThread().getName()+"ÕıÔÚÖ´ĞĞ");
                      Thread.sleep(3000);
-                     System.out.println("å­çº¿ç¨‹"+Thread.currentThread().getName()+"æ‰§è¡Œå®Œæ¯•");
+                     System.out.println("×ÓÏß³Ì"+Thread.currentThread().getName()+"Ö´ĞĞÍê±Ï");
                      latch.countDown();
                  } catch (InterruptedException e) {
                      e.printStackTrace();
@@ -45,16 +40,13 @@ public class CountDownLatchDemo {
          }.start();
 
          try {
-             System.out.println("ç­‰å¾…2ä¸ªå­çº¿ç¨‹æ‰§è¡Œå®Œæ¯•...");
-             latch.await(); //è®©çº¿ç¨‹await;
-             System.out.println("2ä¸ªå­çº¿ç¨‹å·²ç»æ‰§è¡Œå®Œæ¯•");
-             System.out.println("ç»§ç»­æ‰§è¡Œä¸»çº¿ç¨‹");
+             System.out.println("µÈ´ı2¸ö×ÓÏß³ÌÖ´ĞĞÍê±Ï...");
+             latch.await(); //ÈÃÏß³Ìawait;
+             System.out.println("2¸ö×ÓÏß³ÌÒÑ¾­Ö´ĞĞÍê±Ï");
+             System.out.println("¼ÌĞøÖ´ĞĞÖ÷Ïß³Ì");
          } catch (InterruptedException e) {
              e.printStackTrace();
-         }
-     }
-
-
-
+         }*/
+    }
 
 }

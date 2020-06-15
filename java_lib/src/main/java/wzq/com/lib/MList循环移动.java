@@ -7,10 +7,10 @@ import java.util.List;
 /**
  * author:Created by WangZhiQiang on 2019/5/31.
  */
-public class MList寰幆绉诲姩 {
+public class MList循环移动 {
 
     public static void main(String[] args) {
-        //蹇�熷垱寤洪泦鍚堢殑鏂规硶;
+        //快速创建集合的方法;
         List list = Arrays.asList("one Two three Four five six".split(" "));
         System.out.println("List :"+list);
         Collections.rotate(list, 3);

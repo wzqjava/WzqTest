@@ -16,24 +16,24 @@ public class io {
 
         File f = new File("a.txt");
         FileOutputStream fop = new FileOutputStream(f);
-        // æ„å»ºFileOutputStreamå¯¹è±¡,æ–‡ä»¶ä¸å­˜åœ¨ä¼šè‡ªåŠ¨æ–°å»º
+        // ¹¹½¨FileOutputStream¶ÔÏó,ÎÄ¼ş²»´æÔÚ»á×Ô¶¯ĞÂ½¨
         OutputStreamWriter writer = new OutputStreamWriter(fop, "UTF-8");
-        // æ„å»ºOutputStreamWriterå¯¹è±¡,å‚æ•°å¯ä»¥æŒ‡å®šç¼–ç ,é»˜è®¤ä¸ºæ“ä½œç³»ç»Ÿé»˜è®¤ç¼–ç ,windowsä¸Šæ˜¯gbk
+        // ¹¹½¨OutputStreamWriter¶ÔÏó,²ÎÊı¿ÉÒÔÖ¸¶¨±àÂë,Ä¬ÈÏÎª²Ù×÷ÏµÍ³Ä¬ÈÏ±àÂë,windowsÉÏÊÇgbk
 
-        writer.append("ä¸­æ–‡è¾“å…¥");
-        // å†™å…¥åˆ°ç¼“å†²åŒº
+        writer.append("ÖĞÎÄÊäÈë");
+        // Ğ´Èëµ½»º³åÇø
 
         writer.append("\r\n");
-        // æ¢è¡Œ
+        // »»ĞĞ
 
         writer.append("English");
-        // åˆ·æ–°ç¼“å­˜å†²,å†™å…¥åˆ°æ–‡ä»¶,å¦‚æœä¸‹é¢å·²ç»æ²¡æœ‰å†™å…¥çš„å†…å®¹äº†,ç›´æ¥closeä¹Ÿä¼šå†™å…¥
+        // Ë¢ĞÂ»º´æ³å,Ğ´Èëµ½ÎÄ¼ş,Èç¹ûÏÂÃæÒÑ¾­Ã»ÓĞĞ´ÈëµÄÄÚÈİÁË,Ö±½ÓcloseÒ²»áĞ´Èë
 
         writer.close();
-        // å…³é—­å†™å…¥æµ,åŒæ—¶ä¼šæŠŠç¼“å†²åŒºå†…å®¹å†™å…¥æ–‡ä»¶,æ‰€ä»¥ä¸Šé¢çš„æ³¨é‡Šæ‰
+        // ¹Ø±ÕĞ´ÈëÁ÷,Í¬Ê±»á°Ñ»º³åÇøÄÚÈİĞ´ÈëÎÄ¼ş,ËùÒÔÉÏÃæµÄ×¢ÊÍµô
 
         fop.close();
-        // å…³é—­è¾“å‡ºæµ,é‡Šæ”¾ç³»ç»Ÿèµ„æº
+        // ¹Ø±ÕÊä³öÁ÷,ÊÍ·ÅÏµÍ³×ÊÔ´
 
 
 
@@ -41,22 +41,22 @@ public class io {
 
 
         FileInputStream fip = new FileInputStream(f);
-        // æ„å»ºFileInputStreamå¯¹è±¡
+        // ¹¹½¨FileInputStream¶ÔÏó
 
         InputStreamReader reader = new InputStreamReader(fip, "UTF-8");
-        // æ„å»ºInputStreamReaderå¯¹è±¡,ç¼–ç ä¸å†™å…¥ç›¸åŒ
+        // ¹¹½¨InputStreamReader¶ÔÏó,±àÂëÓëĞ´ÈëÏàÍ¬
 
         StringBuffer sb = new StringBuffer();
         while (reader.ready()) {
             sb.append((char) reader.read());
-            // è½¬æˆcharåŠ åˆ°StringBufferå¯¹è±¡ä¸­
+            // ×ª³Échar¼Óµ½StringBuffer¶ÔÏóÖĞ
         }
         System.out.println(sb.toString());
         reader.close();
-        // å…³é—­è¯»å–æµ
+        // ¹Ø±Õ¶ÁÈ¡Á÷
 
         fip.close();
-        // å…³é—­è¾“å…¥æµ,é‡Šæ”¾ç³»ç»Ÿèµ„æº
+        // ¹Ø±ÕÊäÈëÁ÷,ÊÍ·ÅÏµÍ³×ÊÔ´
 
     }
 }
