@@ -7,7 +7,7 @@ package mkotlin
  *
  */
 
-object Demo1 {
+object kotlinDemo {
     var a: Int = 0
     var b: Int = 1
     @JvmStatic

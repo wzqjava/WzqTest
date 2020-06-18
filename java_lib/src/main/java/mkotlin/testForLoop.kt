@@ -4,7 +4,7 @@ package mkotlin
  *<p>作者：王志强<p>
  * <p>创建时间：2020/6/15<p>
  * <p>文件描述：<p>
- *
+ *https://www.jianshu.com/p/d990abd376e4
  */
 fun main(args: Array<String>) {
     print("--------0 until 10--------------")
@@ -36,11 +36,13 @@ fun main(args: Array<String>) {
         print(i)
     }
 
+
     println()
     print("----------要下标-----------")
     for (index in abc.indices) { // 闭区间, 包括10
         print(index)
     }
+
 
     println()
     print("----------元素+下标-----------")

@@ -1,3 +1,4 @@
+include ':smallest_width'
 include ':m_handler_thread'
 include ':mintentservice'
 include ':EventBus_demo', ':java_lib', ':handlerdemo', ':activity_fragment_LiveCycle', ':permissionrequest', ':runtime_permissionrequest', ':CursorAdapter', ':BotomNavigation', ':testconstralayout', ':AutoOpenDD'
