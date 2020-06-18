@@ -1,10 +1,11 @@
 package mkotlin
 
+import kotlin.math.min
+
 /**
  * Date:2018/12/28-16:48
  * @author Mason
  */
-
 fun main(args: Array<String>) {
     println("冒泡1排序结果：")
     val array1 = bubbleSort1()
@@ -13,7 +14,7 @@ fun main(args: Array<String>) {
     }
     println("\n冒泡2排序结果：")
     val array2 = bubbleSort2()
-    for (i in 0..(array2.size -1)) {
+    for (i in 0..(array2.size - 1)) {
         print("${array2[i]}, ")
     }
     println("\n插入排序结果：")
@@ -22,7 +23,7 @@ fun main(args: Array<String>) {
         print("${array3[i]}, ")
     }
     println("\n选择排序结果：")
-    val array4 = selectionSort()
+    val array4 = selectionSort3()
     for (i in 0 until array4.size) {
         print("${array3[i]}, ")
     }
@@ -36,10 +37,10 @@ fun main(args: Array<String>) {
 /**
  * 冒泡排序1
  */
-fun bubbleSort1() : IntArray {
+fun bubbleSort1(): IntArray {
     val array = getArray()
     val len = array.size
-    for (i in 0..(len - 1)) {
+    for (i in 0 until len) {
         for (j in 0..(len - 2 - i)) {
             if (array[j] > array[j + 1]) {
                 val temp = array[j]
@@ -54,7 +55,7 @@ fun bubbleSort1() : IntArray {
 /**
  * 冒泡排序2
  */
-fun bubbleSort2() : IntArray {
+fun bubbleSort2(): IntArray {
     val array = getArray()
     var temp: Int
     val low = 0
@@ -82,7 +83,7 @@ fun bubbleSort2() : IntArray {
 /**
  * 插入排序
  */
-fun insertionSort() : IntArray {
+fun insertionSort(): IntArray {
     val array = getArray()
     val len = array.size
     for (i in 1 until len) {
@@ -100,21 +101,47 @@ fun insertionSort() : IntArray {
 /**
  * 选择排序
  */
-fun selectionSort() : IntArray {
+fun selectionSort2(): IntArray {
     val array = getArray()
     val len = array.size
-    var mainIndex: Int
+    var minIndex: Int
     var temp: Int
-    for (i in 0 until (len - 1)) {
-        mainIndex = i
-        for (j in (i + 1) until len) {
-            if (array[j] < array[mainIndex]) {
-                mainIndex = j
+    for (i in 0 until len - 1) {
+        minIndex = i
+        for (j in i + 1 until len) { // i需要+1
+            if (array[j] < array[minIndex]) {
+                minIndex = j // 找到了比较小的元素
             }
         }
-        temp = array[i]
-        array[i] = array[mainIndex]
-        array[mainIndex] = temp
+        if (i != minIndex) {
+            temp = array[i]
+            array[i] = array[minIndex]
+            array[minIndex] = temp
+        }
+
+    }
+    return array
+}
+
+fun selectionSort3(): IntArray {
+    val array = getArray()
+    val len = array.size
+    var minIndex: Int = 0
+    var temp: Int
+    for (i in 0 until len) {
+        for (j in i until len - 1) {
+            // 拿到minIndex
+            if (array[j] < array[i]) {
+                minIndex = j
+            }
+        }
+        // 交换
+        if (i != minIndex) {
+            temp = array[i]
+            array[i] = array[minIndex]
+            array[minIndex] = temp
+
+        }
     }
     return array
 }
@@ -122,7 +149,7 @@ fun selectionSort() : IntArray {
 /**
  * 希尔排序
  */
-fun shellSort() : IntArray {
+fun shellSort(): IntArray {
     val array = getArray()
     val len = array.size
     var step = 0
@@ -143,14 +170,12 @@ fun shellSort() : IntArray {
     }
     return array
 }
-
 //fun mergeSort() : IntArray {
 //
 //}
-
 /**
  * 获取需要排序的数组
  */
-fun getArray() : IntArray {
-    return intArrayOf(7,24,33,5,42,55,36,26,22,2,46,4,19,50,48)
+fun getArray(): IntArray {
+    return intArrayOf(7, 24, 33, 5, 42, 55, 36, 26, 22, 2, 46, 4, 19, 50, 48, 2)
 }
