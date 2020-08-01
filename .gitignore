@@ -36,8 +36,7 @@ captures/
 
 # Intellij
 *.iml
-.idea/
-/.idea/
+.idea
 # Keystore files
 datacollection_snapshot
 gradlew
