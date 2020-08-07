@@ -1,24 +1,18 @@
 package com.wzq.kotlin_demo
 
 import org.jetbrains.annotations.NotNull
-import org.junit.Test
-import org.junit.Assert.*
 
 /**
- * Example local unit test, which will execute on the development machine (host).
+ *<p>作者：王志强<p>
+ * <p>创建时间：2020/8/3<p>
+ * <p>文件描述：<p>
  *
- * See [testing documentation](http://d.android.com/tools/testing).
  */
-class ExampleUnitTest {
-    @Test
-    fun addition_isCorrect() {
-        assertEquals(4, 2 + 2)
-    }
+class TestRun {
 
     //kotlin
 
-    @Test
-    fun testRun() {
+    fun main(args: Array<String>) {
         val user = User("Kotlin", 1, "1111111")
 
         val result = user.run {
@@ -27,6 +21,9 @@ class ExampleUnitTest {
         }
         println("result: $result")
     }
+
+
+
 
 
 }
