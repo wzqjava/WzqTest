@@ -11,6 +11,7 @@ object Test_i {
     fun main(args: Array<String>) {
         test1()
         test2()
+        test3()
 
     }
 
@@ -24,6 +25,12 @@ object Test_i {
     private fun test2() {
         var i = 0
         println("++i_______" + (++i)) // 1:i自增后再赋值表达式
+        println(i)
+    }
+
+    private fun test3() {
+        var i = 0
+        println("--i_______" + (--i)) // 1:i自增后再赋值表达式
         println(i)
     }
 }
