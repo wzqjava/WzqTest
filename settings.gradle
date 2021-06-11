@@ -1,3 +1,5 @@
+include ':view_chong_tu'
+include ':wanandroid'
 include ':test_ttf'
 include ':kotlin_demo'
 include ':smallest_width'

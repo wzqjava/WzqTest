@@ -7,6 +7,9 @@ package mkotlin
  *https://www.jianshu.com/p/d990abd376e4
  */
 fun main(args: Array<String>) {
+    filterDemo()
+    takeWhileDemo()
+
     print("--------0 until 10--------------")
     for (i in 0 until 10) { // 开区间
         print("$i-")
@@ -49,5 +52,20 @@ fun main(args: Array<String>) {
     for ((index, value) in abc.withIndex()) { // 闭区间, 包括10
         print("$index:$value ")
     }
+    println("--------------------------------------")
 
+
+}
+
+
+fun filterDemo() {
+    val list = listOf(1, 2, 3, 4, 5, 6, 7)
+    list.filter { it % 2 == 0 }.forEach(::println)
+    println("--------------------------------------")
+}
+
+fun takeWhileDemo() {
+    val list = listOf(1, 2, 3, 4, 5, 6, 7)
+    list.takeWhile { it <= 3 }.forEach(::println)
+    println("--------------------------------------")
 }

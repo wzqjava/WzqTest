@@ -4,13 +4,13 @@ import java.util.concurrent.Semaphore;
 
 /**
  * author:Created by WangZhiQiang on 2018/11/21.
- * SemaphoreÆäÊµºÍËøÓĞµãÀàËÆ£¬ËüÒ»°ãÓÃÓÚ¿ØÖÆ¶ÔÄ³×é×ÊÔ´µÄ·ÃÎÊÈ¨ÏŞ¡£
+ * Semaphoreå…¶å®å’Œé”æœ‰ç‚¹ç±»ä¼¼ï¼Œå®ƒä¸€èˆ¬ç”¨äºæ§åˆ¶å¯¹æŸç»„èµ„æºçš„è®¿é—®æƒé™ã€‚
  */
 public class SemaphoreDemo {
 
     public static void main(String[] args) {
-        int N = 8;            //¹¤ÈËÊı
-        Semaphore semaphore = new Semaphore(5); //»úÆ÷ÊıÄ¿, //²ÎÊı5:permits±íÊ¾Ğí¿ÉÊıÄ¿£¬¼´Í¬Ê±¿ÉÒÔÔÊĞí¶àÉÙÏß³Ì½øĞĞ·ÃÎÊ
+        int N = 8;            //å·¥äººæ•°
+        Semaphore semaphore = new Semaphore(5); //æœºå™¨æ•°ç›®, //å‚æ•°5:permitsè¡¨ç¤ºè®¸å¯æ•°ç›®ï¼Œå³åŒæ—¶å¯ä»¥å…è®¸å¤šå°‘çº¿ç¨‹è¿›è¡Œè®¿é—®
 
         for(int i=0;i<N;i++)
             new Worker(i,semaphore).start();
@@ -28,9 +28,9 @@ public class SemaphoreDemo {
         public void run() {
             try {
                 semaphore.acquire();
-                System.out.println("¹¤ÈË"+this.num+"Õ¼ÓÃÒ»¸ö»úÆ÷ÔÚÉú²ú...");
+                System.out.println("å·¥äºº"+this.num+"å ç”¨ä¸€ä¸ªæœºå™¨åœ¨ç”Ÿäº§...");
                 Thread.sleep(2000);
-                System.out.println("¹¤ÈË"+this.num+"ÊÍ·Å³ö»úÆ÷");
+                System.out.println("å·¥äºº"+this.num+"é‡Šæ”¾å‡ºæœºå™¨");
                 semaphore.release();
             } catch (InterruptedException e) {
                 e.printStackTrace();
